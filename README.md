@@ -74,6 +74,20 @@ uv run --directory services/ingestion ruff check .
 uv run --directory services/ingestion pytest
 ```
 
+## Hosted development project
+
+The [AfterClass Development dashboard](https://supabase.com/dashboard/project/oqncgsvhobxwkxtiozwv) is a separate hosted database in the **AfterClass** Supabase organization (Canada Central). Its `public.venues` table has the starter migration and McGill University seed row. The local Docker database remains available and does not synchronize automatically with the hosted database.
+
+To link a new clone to this development project:
+
+```powershell
+npx supabase login
+npx supabase link --project-ref oqncgsvhobxwkxtiozwv
+npx supabase migration list --remote
+```
+
+Only a designated maintainer should apply new reviewed migrations with `npx supabase db push --remote`. The web app continues to use the local Supabase URL in its ignored `apps/web/.env.local`. To point it at the hosted development database, replace that file's `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` with the project's URL and publishable key from the Supabase Dashboard. Keep secret keys server-side and out of Git.
+
 ## Environments and secrets
 
 `APP_ENV` names the environment (`development`, `staging`, or `production`). Each environment needs its own Supabase project, URL, keys, and deployment configuration. Store staging and production values in the deployment provider's secret store, not in Git. Next.js loads `apps/web/.env.local`; Python settings load each service's `.env`. Only variables prefixed `NEXT_PUBLIC_` reach the browser, so never give a secret key that prefix. `ML_API_URL` is server-only. `MODEL_VERSION` labels the ML model used by the health endpoint.
