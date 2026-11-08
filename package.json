@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "supabase": "^3.0.0"
+  },
+  "name": "afterclass",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "build:web": "npm --prefix apps/web run build",
+    "lint:web": "npm --prefix apps/web run lint",
+    "typecheck:web": "npm --prefix apps/web run typecheck",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:status": "supabase status",
+    "supabase:reset": "supabase db reset",
+    "supabase:types": "supabase gen types typescript --schema public > apps/web/src/lib/database.types.ts"
+  }
+}
