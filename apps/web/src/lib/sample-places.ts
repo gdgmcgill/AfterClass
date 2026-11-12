@@ -22,7 +22,7 @@ export const samplePlaces: Place[] = [
     distanceKm: 0.5,
     openingHours: ['Fri 4:00 p.m.–11:00 p.m.'],
     sourceUrl: null,
-    lastConfirmedDate: '2021-11-10', // stale
+    lastConfirmedDate: '2026-10-10', // stale
   },
   {
     id: 'gurts-cafe',
