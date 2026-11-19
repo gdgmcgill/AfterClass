@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Place } from '@/lib/place';
-import { getFreshness, type Freshness } from '@/lib/freshness';
+import { getFreshness } from '@/lib/freshness';
+import { FreshnessStamp } from '@/components/FreshnessStamp';
 import { zineDisplay, zineMono } from '@/lib/fonts';
 
 // Average walking speed of about 5 km/h, so roughly 12 minutes per km.
@@ -24,7 +25,7 @@ export function PlaceCard({ place }: PlaceCardProps) {
           aria-hidden="true"
           className="h-28 border-2 border-[#F3EEE3] bg-[repeating-linear-gradient(-45deg,#131C33_0_8px,#0C1428_8px_16px)]"
         />
-        <FreshnessStamp freshness={freshness} />
+        <FreshnessStamp freshness={freshness} className="absolute -bottom-4 -right-1.5" />
       </div>
 
       <div className="mt-8 flex flex-col gap-3">
@@ -89,14 +90,4 @@ function DistanceChips({ distanceKm }: { distanceKm: number | null }) {
       <span className="border-2 border-[#F3EEE3] px-2.5 py-1 font-semibold">{distanceLabel}</span>
     </>
   );
-}
-
-// The tilted rubber stamp on the corner of the photo.
-function FreshnessStamp({ freshness }: { freshness: Freshness }) {
-  const base = `${zineMono.className} absolute -bottom-4 -right-1.5 -rotate-[8deg] border-[3px] bg-[#070D1C] px-2.5 py-1.5 text-[13px] font-bold uppercase`;
-
-  if (freshness === 'verified') {
-    return <div className={`${base} border-solid border-[#F3EEE3]`}>✓ Verified</div>;
-  }
-  return <div className={`${base} border-dashed border-[#F7C25A] text-[#F7C25A]`}>! Stale</div>;
 }
