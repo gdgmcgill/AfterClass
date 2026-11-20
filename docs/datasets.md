@@ -1,44 +1,44 @@
 
 # Dataset Sourcing and Benchmarking
 
-To evaluate our ranking models and event/activity text-based classifiers, we aim to identify publicly available datasets that can be used to benchmark their performance.
+To evaluate our event/activity text-based classifiers, we aim to identify publicly available datasets containing natural-language descriptions of events, activities, and promotions. These datasets will provide realistic inputs for testing classification and information extraction techniques.
 
-Most publicly available datasets contain raw information about restaurants, activities, and events, including descriptions, categories, prices, and ratings. While useful as realistic model inputs, **these datasets alone are often insufficient for meaningful evaluation**, as they may lack the ground-truth labels or user preferences needed to assess model performance.
+While our ranking models also require evaluation, we propose a different approach that does not depend on sourcing external public datasets.
 
-We divide our dataset requirements into two categories: **classification** and **ranking**.
+## Classification
 
-## Preliminary Evaluation Framework
+Ideally, datasets should contain event/activity descriptions paired with **ground-truth labels and structured attributes** corresponding to the classifier's expected outputs, such as categories, dates, prices, locations, and restrictions.
 
-Before assessing dataset suitability, it is important to establish a preliminary understanding of how the data may be used (details as to how it will be used is yet to be finalized and is subject to discussions).
-We distinguish between two evaluation objectives:
+However, most publicly available datasets contain raw descriptions with incomplete labels or incompatible taxonomies. To make these datasets useful for benchmarking, we can:
 
-- **Functional testing:** Assess whether models can process realistic inputs, handle missing or ambiguous information, and produce outputs consistent with defined constraints.
-- **Performance benchmarking:** Measure how accurately model outputs align with independently established ground truth.
-
-A dataset may be suitable for functional testing without necessarily supporting quantitative performance benchmarking.
-
-### Classification
-
-Ideally, datasets should contain event/activity descriptions paired with **ground-truth category labels**. Since many datasets are unlabeled or use incompatible taxonomies, we can make them useful by:
-
-- Mapping existing categories to our taxonomy.
-- Manually annotating a representative subset.
-- Generating preliminary labels using an LLM, followed by human verification on the full set or a subset.
+- Map existing categories to our own defined taxonomy.
+- Manually annotate a representative subset of descriptions.
+- Generate preliminary labels using an LLM, followed by human verification on the full set or a subset.
 
 This would allow us to evaluate classification performance using metrics such as precision, recall, and F1-score. Unlabeled datasets can still be useful for testing model behavior, but cannot independently establish classification accuracy.
 
-### Ranking
+## Ranking
 
-Ideally, datasets should contain **activity attributes, user/group preferences, and relevance judgments** indicating which activities are most suitable for a given group.
+Unlike the classification models, our ranking models operate on **structured data**, which are expected to be collected through user onboarding.
 
-However, most public datasets only provide venue attributes or individual user interactions, rather than explicit group preferences and decisions. Their usefulness therefore depends on how we intend to construct group scenarios and evaluate the resulting rankings.
+Since the primary objective is to rank candidates according to how well they satisfy each participant's preferences and constraints, external venue datasets are not strictly necessary for evaluating the ranking logic. Instead, we can construct controlled test scenarios that directly reflect the model's expected inputs.
 
-Potential approaches include:
+A potential evaluation approach includes:
 
-- **Real-world candidate activities:** Use public datasets containing venue categories, prices, ratings, and locations to provide realistic activities for ranking.
-- **Synthetic group profiles:** Define hypothetical groups with explicit preferences, budgets, availability windows, and other constraints matching our application's expected inputs.
-- **Constraint validation:** Verify that recommendations respect objectively testable requirements such as budgets, availability, and distance limits.
-- **Independent relevance judgments:** Collect human assessments of activity suitability for specific group scenarios to evaluate ranking quality.
+- **Synthetic candidates/candidates from public datasets:** Generate structured Candidate objects with varying categories, prices, locations, schedules, and other relevant attributes.
+- **Synthetic group profiles:** Define groups with explicit individual preferences, budgets, availability windows, and potentially conflicting interests.
+- **Constraint validation:** Verify that recommendations respect hard constraints such as budgets, availability, and distance limits.
+- **Preference-aware ranking:** Evaluate whether changes in individual preferences produce appropriate changes in ranking, and whether the model balances preferences according to its intended ranking objective.
 
-Synthetic scenarios can help test constraint compliance, but they do not necessarily reflect real group decisions. Evaluating recommendation quality requires independent preference or relevance judgments.
+This approach allows us to systematically test ranking behavior without relying on public datasets that may not reflect our application's input structure.
+
+However, **synthetic scenarios alone cannot establish real-world recommendation quality**. Independent human relevance judgments or actual group feedback would eventually be needed to assess whether the rankings align with users' preferences in practice.
+
+
+## Dataset Evaluations
+
+The following section focuses on publicly available datasets suitable for evaluating our classification models, particularly those containing natural-language descriptions of events, activities, and promotions.
+
+Each dataset will be assessed based on its description quality, available reference labels, language coverage, accessibility, licensing, and suitability for classification and information extraction benchmarking.
+
 
