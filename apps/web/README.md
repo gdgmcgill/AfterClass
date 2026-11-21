@@ -1,3 +1,7 @@
 # Web app
+## How to add a new component using shadcn:
+You can find component names on **https://ui.shadcn.com/docs/components**.
 
-See the repository root [README](../../README.md) for setup, run commands, and architecture.
+Use the following command:
+
+    npx shadcn@latest add [component name]
