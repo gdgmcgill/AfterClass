@@ -43,7 +43,7 @@ Each dataset will be assessed based on its description quality, available refere
 
 ### 1. Ville de Montréal — Public Events
 
-[Dataset on Données Québec](https://www.donneesquebec.ca/recherche/dataset/vmtl-evenements-publics)
+[Québec's official public dataset website](https://www.donneesquebec.ca/recherche/dataset/vmtl-evenements-publics)
 
 Official Montréal event-calendar data. Records include event descriptions and event types alongside information such as dates, target audiences, costs, and locations. It is promising for extracting structured details from real French event descriptions, although some listings are civic rather than recreational.
 
@@ -52,8 +52,8 @@ Official Montréal event-calendar data. Records include event descriptions and e
 - **License:** CC BY 4.0; attribution required, including for public/commercial reuse.
 - **Language:** Primarily French.
 - **Region:** Montréal, Québec, Canada.
-- **How to get it:** Download CSV or GeoJSON resources from the provided link
-- **Need served:** **Need 3 and Need 1** — event-description input and partial reference attributes for ML-02.
+- **How to get it:** Downloadable as CSV or GeoJSON from the provided link.
+- **Need served:** **Need 3 and Need 1** — rich natural-language event descriptions.
 - **Verdict:** **Yes/No** Strong local event source, with rich activity descriptions but most of the listed events are more civic oriented. Most of the production data will likely not be of the same nature as those provided with this dataset and can be ineffective at testing a contextual natural language processor. It can still be used for initial classifier development.
 
 #### Sample data
@@ -66,56 +66,36 @@ Official Montréal event-calendar data. Records include event descriptions and e
 | 1446 | Danse urbaine | Cours débutant de danse urbaine au centre Sanaaq dès le 23 septembre 2026 près du métro Atwater. C’est gratuit et accessible à toute personne sur inscription. | Sport et plein air | 2026-11-25 | Sur inscription | Gratuit |
 | 110 | 400ᵉ anniversaire de Giovanni Legrenzi - Les Ondes | Ne manquez ce concert en hommage à Giovanni Legrenzi présenté par la série Les Ondes et la Chapelle musicale du Bon-Pasteur. | Musique | 2026-11-25 | Avec billet | Gratuit |
 
-### 2. Ville de Montréal — Sports & Leisure Programming
+### 2. OpenAgenda — Public Events
 
-[Dataset on Données Québec](https://www.donneesquebec.ca/recherche/dataset/vmtl-programmation-sports-loisirs-montreal)
+[Huwise datahub](https://hub.huwise.com/explore/assets/evenements-publics-openagenda/view/?vt=rt)
 
-Municipal sports and recreation programming, including descriptions of activities and their categories. This complements one-off event calendars with recurring classes and organized leisure activities, closer to some of the experiences the app may recommend.
-
-- **What it contains:** Activity names, descriptions, categories and scheduling-related metadata.
-- **Size:** Multiple current/historical resources; total number of usable descriptions not verified.
-- **License:** CC BY 4.0; attribution required, including for public/commercial reuse.
-- **Language:** Primarily French.
-- **Region:** Montréal, Québec, Canada.
-- **How to get it:** Download the published CSV, JSON or GeoJSON resources from Données Québec, as available for the relevant release.
-- **Need served:** **Need 3** — activity text with existing category information for ML-02.
-- **Verdict:** **Yes.** Useful for activity descriptions, but not a source of restaurant promotions; assess which structured fields are also stated in the text.
-
-### 3. OpenAgenda — Public Event Agendas
-
-[OpenAgenda developer documentation](https://developers.openagenda.com/en/)
-
-OpenAgenda publishes event listings with human-written descriptions, dates, venues and optional conditions or keywords. It is a promising source of short French event announcements, but **OpenAgenda is a platform rather than one single downloadable dataset**; the particular agenda and each event's reuse rights matter.
+The data can be accessed from Huwise but the original source of the data is from OpenAgenda, who publishes event listings with human-written descriptions, dates, venues and optional conditions or keywords.
 
 - **What it contains:** Event titles, short descriptions, optional long descriptions, keywords, conditions, timings and locations.
-- **Size:** Varies by selected agenda; no single platform-wide dataset size applies.
-- **License:** Varies by event/agenda (`rights.license`); confirm a compatible licence and attribution requirements before reuse.
-- **Language:** Frequently French; English and other languages may be available.
-- **Region:** Mainly France, with agendas in other regions.
-- **How to get it:** Select a public agenda and use its export or API; authentication/access conditions depend on the endpoint.
-- **Need served:** **Need 3** — natural-language event descriptions and some structured metadata.
-- **Verdict:** **Yes, conditionally.** Choose an exact agenda and verify per-record rights before including it in a reusable benchmark. The specific OpenAgenda dataset initially mentioned has not been identified.
+- **Size:** Varies by selected region (user has control over which subset of the data to download). Full dataset contains 1,317,537 records (~ 5GB)
+- **License:** Licence Ouverte v2.0; attribution required, including for public/commercial reuse.
+- **Language:** Majorly French; English events can be easily filtered from the Canada and US regions.
+- **Region:** Mainly France, but can filter for Canada and US.
+- **How to get it:** Downloadable as CSV and JSON from the provided link.
+- **Need served:** **Need 3 and Need 1** — rich natural-language event descriptions.
+- **Verdict:** **Yes** Rich variety in event types (not dominantly civic like in the Ville de Montréal dataset), which is more contextually aligned with production data.
 
-### 4. Orléans Métropole — Public Events (OpenAgenda Export)
+#### Sample data
 
-[Dataset on data.gouv.fr](https://www.data.gouv.fr/datasets/liste-des-evenements-publics-openagenda-orleans-metropole)
+(Selected fields only)
 
-A named, downloadable OpenAgenda-based dataset of public events from the Orléans area. Unlike the general OpenAgenda platform, it is a concrete candidate with published export files. It may provide natural-language French event descriptions, though the actual fields and text completeness still need checking.
+| CSV record | `Title` | `Description` | `Times` | `Place name` | `Details` |
+|---|---|---|---|---|---|
+| 1522 | Fête de la Bretagne 2023 dinner in Louisiana! | Join us for an intimate Fête de la Bretagne dinner in Lafayette, Louisiana as we bring together Breizh Amerika members, Bretons, and friends of Brittany. | Samedi 20 mai, 18h00 | Prejean's Restaurant Carencro | Entrée libre |
+| 441 | Franco-WAG | Créez votre propre macaron qui célèbre votre francophonie, participez à des jeux dans le musée, et anticipez une visite spéciale des danseurs francophones. Amusons-nous en français. | Dimanche 18 mars 2018, 13h00, 14h30 | 300 boul. Memorial | $20 par famille, Gratuit pour les membres |
+| 1031 | LINDIGO à Montréal (Canada) Festival Nuits d'Afrique | Appel à la fête et rassembleuse, la musique de la bande du sympathique Olivier Araste, guidée par les traditionnels Roulèr et kayamb, séduit toutes les générations, gardant le Maloya bien vivant. | Mardi 12 juillet, 20h30 | Club Ballatou | Prix : 25$ |
 
-- **What it contains:** Public-event listings exported from OpenAgenda; description field coverage requires sample verification.
-- **Size:** Published CSV approximately **66.8 MB** and JSON approximately **99.1 MB**; usable event count not verified.
-- **License:** Licence Ouverte 2.0; attribution required.
-- **Language:** French.
-- **Region:** Orléans Métropole, France.
-- **How to get it:** Download CSV or JSON exports from the dataset page on data.gouv.fr.
-- **Need served:** **Need 3** — supplementary event text and event metadata.
-- **Verdict:** **Yes, provisional.** Openly licensed and accessible, but confirm that the export includes sufficiently informative prose descriptions.
+### 3. Ticketmaster — Discovery API v2
 
-### 5. Ticketmaster — Discovery API v2
+[Discovery API documentation](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/)
 
-[Discovery API documentation](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/) · [API terms](https://developer.ticketmaster.com/support/terms-of-use/)
-
-Ticketmaster exposes structured listings for concerts, sports, theatre and other ticketed events. It can return event descriptions or notes when present, plus classifications, venues, dates and sometimes price ranges. It is valuable for experimenting with event extraction, but it is **not an openly licensed dataset**.
+Ticketmaster exposes structured listings for concerts, sports, theatre and other ticketed events. It can return event descriptions or notes when present, plus classifications, venues, dates and sometimes price ranges. It is valuable for experimenting with event extraction.
 
 - **What it contains:** Event names, classifications, dates, venues, optional `info` / `pleaseNote` text and `priceRanges`.
 - **Size:** API advertises 230,000+ events across its coverage; number with useful prose descriptions not verified.
@@ -126,20 +106,6 @@ Ticketmaster exposes structured listings for concerts, sports, theatre and other
 - **Need served:** **Need 3** — structured event records and optional descriptive text.
 - **Verdict:** **No for a reusable public benchmark; conditional for limited API-based tests** if permitted by the applicable terms.
 
-### 6. EventKG v3.0
-
-[EventKG archive](https://zenodo.org/records/3733829) · [Project information](https://eventkg.l3s.uni-hannover.de/data.html)
-
-A multilingual event knowledge graph designed for research. It contains historical and encyclopedic event entities with structured facts, but its content is much less representative of informal leisure listings and short promotional announcements.
-
-- **What it contains:** Event entities, labels, descriptions, temporal information and linked knowledge-graph relationships.
-- **Size:** Approximately **5.4 GB** archive for v3.0; not a ready-to-use short-text table.
-- **License:** Reuse rights for this archive version not confirmed; do not assume approval for the app.
-- **Language:** Multilingual, including English and French.
-- **Region:** Global.
-- **How to get it:** Download research data archives from Zenodo and parse the RDF/N-Quads representation.
-- **Need served:** **Need 3**, indirectly — possible event descriptions but a weak domain match.
-- **Verdict:** **No.** Poor fit for short, informal activity and promotion extraction; substantial processing required.
 
 ### Comparison Table
 
@@ -167,14 +133,3 @@ A multilingual event knowledge graph designed for research. It contains historic
 3. **Language/format shift:** Most Montréal and Orléans descriptions are formal French listings, not short campus posts in English/French. Assess each style separately.
 4. **Availability / source bias:** Feeds update and may omit descriptions. Define a sampling date, report field completeness and deduplicate syndicated events.
 5. **Licensing:** CC BY / Licence Ouverte generally require source attribution; OpenAgenda rights can vary per event; Ticketmaster is **not** a freely reusable training/test corpus.
-
-### References and access
-
-- [Montréal Public Events — source/catalogue](https://www.donneesquebec.ca/recherche/dataset/vmtl-evenements-publics); [Open Canada metadata / CC BY licence](https://open.canada.ca/data/en/dataset/6a4cbf2c-c9b7-413a-86b1-e8f7081e2578)
-- [Montréal Sports & Leisure — source/catalogue](https://www.donneesquebec.ca/recherche/dataset/vmtl-programmation-sports-loisirs-montreal)
-- [OpenAgenda event fields](https://developers.openagenda.com/en/evenements/export-json/); [per-event licensing](https://developers.openagenda.com/licence/)
-- [Orléans OpenAgenda published dataset](https://www.data.gouv.fr/datasets/liste-des-evenements-publics-openagenda-orleans-metropole)
-- [Ticketmaster Discovery API documentation](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/); [Ticketmaster API terms](https://developer.ticketmaster.com/support/terms-of-use/)
-- [EventKG data](https://eventkg.l3s.uni-hannover.de/data.html); [v3.0 archive](https://zenodo.org/records/3733829)
-
-
