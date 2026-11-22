@@ -144,7 +144,7 @@ Google Local Data is a large-scale dataset of Google Maps business listings and 
 | 266 | Third Eye Tavern | Nepalese dumplings lead the pub fare at this narrow, brick-walled tavern with live music downstairs. | ["Nepalese restaurant", "American restaurant", "Restaurant"] | $ | 4 | Third Eye Tavern, 1723 Connecticut Ave NW, Washington, DC 20009 |
 | 8063 | Ping Pong Dim Sum | Cosmopolitan tea house with a contemporary twist offering a dim sum bar & other Asian specialties & cocktails. | ["Chinese restaurant", "Asian restaurant", "Brunch restaurant", "Cocktail bar", "Dim sum restaurant", "Restaurant", "Tea house"] | $$$ | 3.2 | Ping Pong Dim Sum, 900 7th St NW, Washington, DC 20001 |
 
-### Comparison Table
+## Comparison Table
 
 | Dataset | Need | Size | Language / region | License | Verdict |
 |---|---|---|---|---|---|
