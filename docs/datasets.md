@@ -43,18 +43,28 @@ Each dataset will be assessed based on its description quality, available refere
 
 ### 1. Ville de Montréal — Public Events
 
-[Dataset on Données Québec](https://www.donneesquebec.ca/recherche/dataset/vmtl-evenements-publics) · [Open Canada listing](https://open.canada.ca/data/en/dataset/6a4cbf2c-c9b7-413a-86b1-e8f7081e2578)
+[Dataset on Données Québec](https://www.donneesquebec.ca/recherche/dataset/vmtl-evenements-publics)
 
 Official Montréal event-calendar data. Records include event descriptions and event types alongside information such as dates, target audiences, costs, and locations. It is promising for extracting structured details from real French event descriptions, although some listings are civic rather than recreational.
 
 - **What it contains:** Event descriptions, types, dates, audiences, costs and locations.
-- **Size:** Continuously updated feed; total number of usable descriptions not verified.
+- **Size:** Continuously updated feed; total of 3,864 rows of events (~ 1.6MB)
 - **License:** CC BY 4.0; attribution required, including for public/commercial reuse.
 - **Language:** Primarily French.
 - **Region:** Montréal, Québec, Canada.
-- **How to get it:** Download CSV or GeoJSON resources from Données Québec; the Open Canada link is an alternate catalogue listing for the **same dataset**.
-- **Need served:** **Need 3** — event-description input and partial reference attributes for ML-02.
-- **Verdict:** **Yes.** Strong local event source, subject to filtering irrelevant records and checking description completeness.
+- **How to get it:** Download CSV or GeoJSON resources from the provided link
+- **Need served:** **Need 3 and Need 1** — event-description input and partial reference attributes for ML-02.
+- **Verdict:** **Yes/No** Strong local event source, with rich activity descriptions but most of the listed events are more civic oriented. Most of the production data will likely not be of the same nature as those provided with this dataset and can be ineffective at testing a contextual natural language processor. It can still be used for initial classifier development.
+
+#### Sample data
+
+(Selected fields only)
+
+| CSV record | `titre` | `description` | `type_evenement` | `date_debut` | `inscription` | `cout` |
+|---|---|---|---|---|---|---|
+| 373 | Vendredis jeux de société | Venez passer un moment ludique en famille et découvrez nos nouveautés en jeux de société. | Jeux | 2026-12-11 | Entrée libre | Gratuit |
+| 1446 | Danse urbaine | Cours débutant de danse urbaine au centre Sanaaq dès le 23 septembre 2026 près du métro Atwater. C’est gratuit et accessible à toute personne sur inscription. | Sport et plein air | 2026-11-25 | Sur inscription | Gratuit |
+| 110 | 400ᵉ anniversaire de Giovanni Legrenzi - Les Ondes | Ne manquez ce concert en hommage à Giovanni Legrenzi présenté par la série Les Ondes et la Chapelle musicale du Bon-Pasteur. | Musique | 2026-11-25 | Avec billet | Gratuit |
 
 ### 2. Ville de Montréal — Sports & Leisure Programming
 
