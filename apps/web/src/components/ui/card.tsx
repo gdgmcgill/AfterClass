@@ -1,6 +1,5 @@
 import * as React from "react"
 import { cn } from "cn"
-import de from "zod/v4/locales/de.js"
 
 function Card({
   className,
