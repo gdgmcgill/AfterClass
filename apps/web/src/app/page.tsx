@@ -1,17 +1,23 @@
-export default function Home() {
+import { Suspense } from 'react';
+import { connection } from 'next/server';
+import { EventCard } from '@/components/EventCard';
+import { fakeEvents } from '@/lib/event/SampleEvents';
+ 
+export default function DevComponentsPage() {
   return (
-    <main className="mx-auto flex min-h-screen max-w-3xl flex-col justify-center gap-6 p-8">
-      <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">GDG McGill</p>
-      <h1 className="text-5xl font-semibold tracking-tight">AfterClass</h1>
-      <p className="text-lg text-slate-600">
-        Discover activities and make plans together. The development environment is ready for
-        the product teams to build on.
-      </p>
-      <nav className="flex gap-5 text-sm text-indigo-600" aria-label="Development checks">
-        <a href="/api/health">Web health</a>
-        <a href="/api/venues">Venues API</a>
-        <a href="/api/ml/health">ML connection</a>
-      </nav>
-    </main>
+    <div className="min-h-screen bg-[#070D1C] text-[#F3EEE3]">
+      <main className="mx-auto flex max-w-md flex-col gap-6 p-4 pr-6">
+        <h1 className="text-xl font-semibold">Component test page</h1>
+        <Suspense fallback={<p>Loading…</p>}>
+          <SampleEventCards />
+        </Suspense>
+      </main>
+    </div>
   );
+}
+ 
+async function SampleEventCards() {
+  await connection();
+ 
+  return fakeEvents.map((event) => <EventCard key={event.id} event={event} />);
 }
