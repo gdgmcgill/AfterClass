@@ -18,7 +18,7 @@ export function TabList({ pathname }: TabListProps) {
               href={href}
               aria-current={isActive ? "page" : undefined}
               className={cn(
-                "flex h-full flex-col items-center justify-center gap-1 text-xs font-medium text-muted-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-ring",
+                "flex h-full flex-col items-center justify-center gap-1 text-xs font-medium text-muted-foreground focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-primary",
                 isActive && "font-bold text-primary",
               )}
             >
