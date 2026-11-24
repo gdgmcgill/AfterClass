@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wp-events-plugin.com//6.6.5//EN
+TZID:America/Toronto
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:1398@ssmu.ca
+DTSTART;TZID=America/Toronto;VALUE=DATE:20190812
+DTEND;TZID=America/Toronto;VALUE=DATE:20190903
+DTSTAMP:20190826T154811Z
+URL:https://ssmu.ca/events/activities-night-tabler-regsitration/
+SUMMARY:Activities Night - Register for a Table! -  - 12 Aug 19 00:00
+DESCRIPTION:Are you a SSMU Club\, Service\, or Independent Student Group re
+ ady to make your grand entrance into McGill student life? You are cordiall
+ y invited to the most inclusive night of the year … Activities Night! It
+ ’s the best place to showcase what your group has to offer and to attrac
+ t the most dedicated and passionate of McGill!\n\nSign-Ups for registratio
+ n can be found here. Registration is open today until September 2nd!\n\nTh
+ is year\, Activities Night will be taking place on September 11th and 12th
+  from 4 - 8 PM in Tomlinson Fieldhouse. To access the event in the Fieldho
+ use\, you’ll need to enter through Tomlinson Hall. Click the map for mor
+ e information!\n\nThe guide for tablers can be found here.\n\nLet’s make
+  #AN2019 the best yet!\n\nThe SSMU acknowledges that McGill University is 
+ situated on the traditional territory of the Haudenosaunee and Anishinaabe
+  nations\, a place which has long served as a site of meeting and exchange
+  amongst Indigenous peoples. The SSMU recognizes and respects these nation
+ s as the traditional custodians of the land and water on which it is locat
+ ed.
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/08/table
+ r_registration_SSMUcalendar.png
+LOCATION:\, 475 Pine Ave W\, Montreal\, QC\, H2W 1S4\, Canada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=475 Pine Ave W\, Montreal\,
+  QC\, H2W 1S4\, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1394@ssmu.ca
+DTSTART;TZID=America/Toronto:20190823T121500
+DTEND;TZID=America/Toronto:20190823T130000
+DTSTAMP:20190725T121712Z
+URL:https://ssmu.ca/events/movecamp-fitness-event/
+SUMMARY:MoveCamp Fitness Event -  - 23 Aug 19 12:15
+DESCRIPTION:MoveCamp is holding a special event to promote fitness in a pos
+ itive way!\n\nMovecamp is on a mission to disrupt the fitness industry by 
+ breaking down myths and messages that are doing more harm than good and ge
+ tting people moving by making fitness simple and fun!\n\nParticipants shou
+ ld wear comfortable clothes and running shoes and bring a water bottle and
+  exercise mat.\n\nFind out more about MoveCamp at https://bit.ly/2JYQN87
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/07/MoveC
+ amp.png
+CATEGORIES:Outdoors,Sports Athletics &amp; Recreations
+LOCATION:\, McTavish Reservoir\, Montreal\, QC\, H3A 1A5 \, Canada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=McTavish Reservoir\, Montre
+ al\, QC\, H3A 1A5 \, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1403@ssmu.ca
+DTSTART;TZID=America/Toronto;VALUE=DATE:20190903
+DTEND;TZID=America/Toronto;VALUE=DATE:20190919
+DTSTAMP:20190904T122245Z
+URL:https://ssmu.ca/events/mcgill-students-for-think-pink-executive-recrui
+ tment/
+SUMMARY:McGill Students for Think Pink Executive Recruitment -  - 3 Sep 19 
+ 00:00
+DESCRIPTION:Are you interested in fighting breast cancer\, developing your 
+ skills\, and meeting new friends? Then Think Pink is the club to join this
+  year!   (•◡•) / We organize fun and informative events\, do food sa
+ les\, and raise money for the Quebec Breast Cancer Foundation. We aim to g
+ ive all members opportunities to plan aspects of our events and to have fu
+ n together. If you're motivated and interested in the cause\, we invite yo
+ u to apply for one of our open VP or committee positions by September 18th
+ . See our Facebook event for all links and information! 
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/09/exec-
+ recruitment-banner-2.jpg
+CATEGORIES:Charity
+END:VEVENT
+BEGIN:VEVENT
+UID:1404@ssmu.ca
+DTSTART;TZID=America/Toronto:20190909T090000
+DTEND;TZID=America/Toronto:20190912T153000
+DTSTAMP:20190905T121858Z
+URL:https://ssmu.ca/events/hema-quebec-and-mss-blood-drive-la-collecte-hem
+ a-quebec-et-mss/
+SUMMARY:Héma-Québec and MSS Blood drive/ La collecte Héma-Québec et MSS
+  -  - 9 Sep 19 09:00
+DESCRIPTION:Have you ever donated blood before? Well this is your chance to
+  literally participate in SAVING A LIFE! Come join the annual Medical Stud
+ ent’s Society blood donor clinic! This year we are doing something a lit
+ tle different – we are bringing in the Héma Québec mobile blood collec
+ tion unit and parking it at two different locations on McGill campus over 
+ the span of 4 days. Check the event page for more details.
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/09/MSS-B
+ lood-Drive-1.jpg
+CATEGORIES:Community,Faculty Events,Featured Event
+END:VEVENT
+BEGIN:VEVENT
+UID:1358@ssmu.ca
+DTSTART;TZID=America/Toronto:20190910T180000
+DTEND;TZID=America/Toronto:20190910T200000
+DTSTAMP:20190904T160903Z
+URL:https://ssmu.ca/events/legislative-council-13/
+SUMMARY:SSMU Legislative Council -  - 10 Sep 19 18:00
+DESCRIPTION:The Legislative Council will be meeting at 6 PM in McConnell En
+ gineering Building\, Room 603!\nAll SSMU members are welcome to attend. Fo
+ llow the real-time tweets @theSSMU with the hashtag #SSMULegCouncil\n\nFor
+  more information on the council and its members\, as well as current and 
+ archived documents\, click through the link below.\nhttps://ssmu.ca/govern
+ ance/ssmu-legislative-council/
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/06/leg_c
+ ouncil.png
+CATEGORIES:Legislative Council,SSMU
+LOCATION:\, 3480 Rue University\, Montréal\, Québec\, H3A 0E9\, Canada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=3480 Rue University\, Montr
+ éal\, Québec\, H3A 0E9\, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1396@ssmu.ca
+DTSTART;TZID=America/Toronto:20190911T160000
+DTEND;TZID=America/Toronto:20190912T200000
+DTSTAMP:20190826T160010Z
+URL:https://ssmu.ca/events/activities-night-fall-2019/
+SUMMARY:Activities Night Fall 2019 -  - 11 Sep 19 16:00
+DESCRIPTION:What’s the biggest bash on McGill campus where all of your fa
+ vorite clubs\, services\, and student groups come to hang out? Well\, it
+ ’s Activities Night\, of course! It’s the place where all 250+ student
+  groups and services come and show you what campus life has to offer.\n\n 
+ Mark your calendars and be sure to join us (with all of your pals) on Sept
+ ember 11th and 12th from 4 - 8 PM in Tomlinson Fieldhouse!\n\nTo access th
+ e event in the Fieldhouse\, you’ll need to enter through Tomlinson Hall.
+  Click the map for more information. There will be signs and volunteers to
+  help guide you!\n\nLet’s make #AN2019 the best yet!\n\nThe SSMU acknowl
+ edges that McGill University is situated on the traditional territory of t
+ he Haudenosaunee and Anishinaabe nations\, a place which has long served a
+ s a site of meeting and exchange amongst Indigenous peoples. The SSMU reco
+ gnizes and respects these nations as the traditional custodians of the lan
+ d and water on which it is located.
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/08/event
+ _SSMUcalendar.png
+CATEGORIES:SSMU
+LOCATION:\, 475 Pine Ave W\, Montreal\, QC\, H2W 1S4\, Canada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=475 Pine Ave W\, Montreal\,
+  QC\, H2W 1S4\, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1407@ssmu.ca
+DTSTART;TZID=America/Toronto:20190912T180000
+DTEND;TZID=America/Toronto:20190912T190000
+DTSTAMP:20190910T192653Z
+URL:https://ssmu.ca/events/psychedelic-research/
+SUMMARY:Psychedelic Research -  - 12 Sep 19 18:00
+DESCRIPTION:Hosted by the McGill Institute for Health and Social Policy. Co
+ -hosted by Palliative Care McGill\, the Divison of Social and Transcultura
+ l Psychiatry\, and the Culture\, Mind and Brain program.
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/09/image
+ 001.png
+CATEGORIES:Faculty Events,Lecture
+LOCATION:\, 3655 Promenade Sir William Osler \, Montreal\, QC\, H3G 1Y6\, C
+ anada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=3655 Promenade Sir William 
+ Osler \, Montreal\, QC\, H3G 1Y6\, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:
+ 0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1402@ssmu.ca
+DTSTART;TZID=America/Toronto;VALUE=DATE:20190913
+DTEND;TZID=America/Toronto;VALUE=DATE:20190916
+DTSTAMP:20190830T134004Z
+URL:https://ssmu.ca/events/soulstice-a-cappella-auditions/
+SUMMARY:Soulstice a Cappella Auditions -  - 13 Sep 19 00:00
+DESCRIPTION:Come audition for Soulstice a Cappella\, McGill's finest a Capp
+ ella group! The only requirements are to prepare a 1-minute excerpt from a
+  song that best shows off your voice! You can find a sing up sheet on our 
+ Facebook page Facebook.com/Soulsticeacappella/ We can't wait to hear all y
+ our lovely voices!
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/08/Souls
+ tice-a-Cappell.jpg
+CATEGORIES:Entertainment &amp; Music
+LOCATION:\, 3515 rue Durocher apt 27\, Montreal\, QC\, Canada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=3515 rue Durocher apt 27\, 
+ Montreal\, QC\, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1405@ssmu.ca
+DTSTART;TZID=America/Toronto:20190913T000000
+DTEND;TZID=America/Toronto:20190913T000000
+DTSTAMP:20190906T124108Z
+URL:https://ssmu.ca/events/kickoff-party-2019/
+SUMMARY:Kickoff Party 2019 -  - 13 Sep 19 00:00
+DESCRIPTION:Hi MISA friends\, welcome back! Let’s celebrate the new acade
+ mic year together with a kickoff party! The event starts at 9:00pm sharp. 
+ The first hour will be an opportunity to socialize and find new friends. I
+ t may be the best time for the new students to network with and get to kno
+ w upper year students. Also during this time\, MISA’s executive council 
+ will speak shortly about MISA\, our events and our plans for this year. \n
+ \nAt 10pm\, the party will officially start and we will have a memorable n
+ ight with the beautiful performance of Djplus. Thompson house restaurant w
+ ill be open until 9:30 pm\, for anyone who would like to order something t
+ o eat. Bar services will be available for the duration of the night. The d
+ ress code is semi-formal.\n\nWe hope you will accompany us in celebrating 
+ the new academic year with energy and enthusiasm!\nThis party is not exclu
+ sive to MISA members/Iranian students\, please do not hesitate to bring al
+ ong your friends as well!\nTo register\, please click on the following lin
+ k https://mcgilliranianstudentassociation.eventsmart.com/events/kickoff-pa
+ rty-2019/
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/09/IMG_9
+ 261.jpg
+CATEGORIES:Parties &amp; Drinking
+LOCATION:\, 3650 McTavish St.\, Montreal \, Quebec \, H3A 1Y2\, Canada
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=3650 McTavish St.\, Montrea
+ l \, Quebec \, H3A 1Y2\, Canada;X-APPLE-RADIUS=100;X-TITLE=:geo:0,0
+END:VEVENT
+BEGIN:VEVENT
+UID:1408@ssmu.ca
+DTSTART;TZID=America/Toronto:20190916T000000
+DTEND;TZID=America/Toronto:20191205T000000
+DTSTAMP:20190910T192753Z
+URL:https://ssmu.ca/events/walksafe-begins-operations/
+SUMMARY:Walksafe Begins Operations -  - 16 Sep 19 00:00
+DESCRIPTION:Walksafe is a volunteer service that provides free and confiden
+ tial accompaniment for those who are walking at night. We will begin opera
+ tions on September 16\, so call 514-398-2498 during our operating hours to
+  reach us! 
+ATTACH;FMTTYPE=image/jpeg:https://ssmu.ca/wp-content/uploads/2019/09/walks
+ afe.png
+CATEGORIES:Student Life
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+X-LIC-LOCATION:America/Toronto
+BEGIN:DAYLIGHT
+DTSTART:20190310T030000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20191103T010000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

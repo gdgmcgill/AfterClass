@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//132.216.98.100//NONSGML kigkonsult.se iCalcreator 2.20.4//
+BEGIN:VEVENT
+UID:20261123T154051EST-2351dU7mJZ@132.216.98.100
+DTSTAMP:20261123T204051Z
+DTSTART:20261123T200000Z
+DTEND:20261123T213000Z
+LOCATION:EM1.3905\, Block E\, CA\, QC
+SUMMARY:AMR Seminar +Social with Prof Dr Susanne Häußler
+URL:https://www.mcgill.ca/channels/channels/event/amr-seminar-social-prof-d
+ r-susanne-haussler-375237
+END:VEVENT
+END:VCALENDAR
