@@ -1,4 +1,4 @@
-import { Bookmark, Compass, User } from "lucide-react";
+import { Bookmark, CalendarDays, Compass, Map as MapIcon, User } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export type Tab = {
@@ -9,6 +9,8 @@ export type Tab = {
 
 export const TABS: readonly Tab[] = [
   { href: "/", label: "Discover", icon: Compass },
+  { href: "/map", label: "Map", icon: MapIcon },
+  { href: "/plan", label: "Plan", icon: CalendarDays },
   { href: "/saved", label: "Saved", icon: Bookmark },
   { href: "/profile", label: "Profile", icon: User },
 ];
