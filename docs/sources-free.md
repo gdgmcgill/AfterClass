@@ -17,26 +17,26 @@ Free sources for places, events and promotions around McGill. "Free" means **fre
 
 | Source | Covers | How to get it | Limits | Licence / credit | Store / show | 10-check | Checked |
 |---|---|---|---|---|---|---|---|
-| OpenStreetMap (Overpass) | Places | API, no key | Guideline: < 100 queries & 10 MB/day for regular use, whole app | ODbL · "© OpenStreetMap contributors" | Yes / yes; share-alike may apply if mixed | **4/10** | 2026-11-19 (terms), 2026-11-23 (check) |
-| Overture Maps Places | Places | File download, monthly | None | Mostly CDLA-2.0 (credit optional) · Apache-2.0 for Foursquare-sourced places (credit Foursquare, keep licence notice) | Yes / yes | **5/10** | 2026-11-24 |
-| Montréal: Événements publics | City events | CSV, daily | None | CC BY 4.0 · "With data from … City of Montreal's Open Data Website" | Yes / yes | **10/10** | 2026-11-23 |
-| Montréal: Établissements alimentaires | Food businesses | CSV, weekly | None | CC BY 4.0 · same | Yes / yes | **7/10** usable | 2026-11-23 |
-| Montréal: Lieux culturels | City venues | CSV | None | CC BY 4.0 · same | Yes / yes | — (1 result) | 2026-11-23 |
+| OpenStreetMap (Overpass) | Places | API, no key | Guideline: < 100 queries & 10 MB/day for regular use, whole app | ODbL / "© OpenStreetMap contributors" | Yes / yes; share-alike may apply if mixed | **4/10** | 2026-11-19 (terms), 2026-11-23 (check) |
+| Overture Maps Places | Places | File download, monthly | None | Mostly CDLA-2.0 (credit optional) / Apache-2.0 for Foursquare-sourced places (credit Foursquare, keep licence notice) | Yes / yes | **5/10** | 2026-11-24 |
+| Montréal: Événements publics | City events | CSV, daily | None | CC BY 4.0 / "With data from … City of Montreal's Open Data Website" | Yes / yes | **10/10** | 2026-11-23 |
+| Montréal: Établissements alimentaires | Food businesses | CSV, weekly | None | CC BY 4.0 / same as above | Yes / yes | **7/10** usable | 2026-11-23 |
+| Montréal: Lieux culturels | City venues | CSV | None | CC BY 4.0 / same as above | Yes / yes | — (1 result) | 2026-11-23 |
 | McGill Channels | Campus events | RSS empty; iCal per event only | — | None ("© McGill") | Ask McGill | — | 2026-11-23 |
 | SSMU calendar | Student events | iCal stale (1 event, 2019) | — | None found | Ask SSMU | — | 2026-11-23 |
-| PredictHQ (free plan) | Concerts, club nights, festivals… | API + CSV export | Saved locations only (2–3; PredictHQ's pages disagree) | Proprietary · "Events by PredictHQ" | **No storing**; cache ≤ 24 h only if the plan allows | **10/10** | 2026-11-24 |
+| PredictHQ (free plan) | Concerts, club nights, festivals… | API + CSV export | Saved locations only (2–3; PredictHQ's pages disagree) | Proprietary / "Events by PredictHQ" | **No storing**; cache ≤ 24 h only if the plan allows | **10/10** | 2026-11-24 |
 | Ticketmaster | Big ticketed events | API, free key | 5,000 calls/day | Proprietary | Cache "reasonable periods" only | Pending (sign-up stuck) | 2026-11-23 (terms) |
 
 ## Fields
 
-| Source | Category | Price | Location | Hours | Event date / time |
+| Source | Category | Price | Location | Hours / Event date time |
 |---|---|---|---|---|---|
-| OpenStreetMap | Yes | No | Yes (address often missing) | 24% | — |
+| OpenStreetMap | Yes | No | Yes (address often missing) | 24% |
 | Overture | Yes (95%) | No | Yes (address 95%) | No | — |
-| Montréal events | Yes | Free/paid only | Yes | — | Date yes / **time no** |
-| Montréal food | Partial | No | Yes (100%) | No | — |
-| McGill | Partial | No | Yes | — | Yes / yes |
-| PredictHQ | Yes (loose) | No | Yes | — | Yes / yes (93%) |
+| Montréal events | Yes | Free/paid only | Yes | Date yes / **time no** |
+| Montréal food | Partial | No | Yes (100%) | No |
+| McGill | Partial | No | Yes | Yes / yes |
+| PredictHQ | Yes (loose) | No | Yes | Yes / yes (93%) |
 
 ## Notes
 
@@ -52,14 +52,12 @@ Free sources for places, events and promotions around McGill. "Free" means **fre
 
 | Source | Why |
 |---|---|
-| Foursquare API | Free tier gives the same fields as Foursquare's open data (partly included in Overture); hours, ratings, price are paid → ING-01 |
+| Foursquare API | Free tier gives the same fields as Foursquare's open data (partly included in Overture), but hours, ratings, price are paid |
 | Geoapify | Free, but built on OSM (same quality) |
-| Google Places, Yelp, Meetup | Paid, or no storage → ING-01 |
-| SeatGeek | Terms forbid storing; overlaps Ticketmaster |
+| Google Places, Yelp, Meetup | Paid, or no storage |
+| SeatGeek | Terms forbid storing and overlaps Ticketmaster |
 | Eventbrite | Public search shut down in 2019 |
-| Resident Advisor | No official API → ING-03 |
-| Bandsintown | Needs written consent; searches by artist |
-| La Vitrine | API access by request only. TODO: email |
+| Resident Advisor | No official API |
 
 ## What no free source covers
 
