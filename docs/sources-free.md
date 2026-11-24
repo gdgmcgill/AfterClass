@@ -30,7 +30,7 @@ Free sources for places, events and promotions around McGill. "Free" means **fre
 ## Fields
 
 | Source | Category | Price | Location | Hours / Event date time |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | OpenStreetMap | Yes | No | Yes (address often missing) | 24% |
 | Overture | Yes (95%) | No | Yes (address 95%) | No | — |
 | Montréal events | Yes | Free/paid only | Yes | Date yes / **time no** |
