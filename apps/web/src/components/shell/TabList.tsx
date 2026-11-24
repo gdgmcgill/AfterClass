@@ -9,7 +9,7 @@ type TabListProps = {
 
 export function TabList({ pathname }: TabListProps) {
   return (
-    <ul className="mx-auto flex h-(--shell-nav-height)">
+    <ul className="mx-auto flex h-(--shell-nav-height) max-w-(--shell-content-max-width)">
       {TABS.map(({ href, label, icon: Icon }) => {
         const isActive = isTabActive(pathname, href);
         return (

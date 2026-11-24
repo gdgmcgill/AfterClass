@@ -75,6 +75,7 @@
   --radius: 0.625rem;
   --shell-header-height: 3.5rem;
   --shell-nav-height: 4rem;
+  --shell-content-max-width: 40rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);

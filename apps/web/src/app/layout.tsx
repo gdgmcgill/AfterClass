@@ -39,7 +39,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     >
       <body className="min-h-full flex flex-col">
         <AppHeader />
-        <main className="flex-1 pb-[calc(var(--shell-nav-height)+env(safe-area-inset-bottom))]">
+        <main className="mx-auto w-full max-w-(--shell-content-max-width) flex-1 pb-[calc(var(--shell-nav-height)+env(safe-area-inset-bottom))]">
           {children}
         </main>
         <BottomNav />
