@@ -9,7 +9,7 @@ export function BottomNav() {
   return (
     <nav
       aria-label="Main"
-      className="fixed inset-x-0 bottom-0 z-10 border-t border-border bg-card"
+      className="fixed inset-x-0 bottom-0 z-10 border-t border-border bg-card pb-[env(safe-area-inset-bottom)]"
     >
       <Suspense fallback={<TabList pathname={null} />}>
         <NavTabs />

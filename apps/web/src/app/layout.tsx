@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   description: "Discover activities and make plans together at McGill",
 };
 
+// viewport-fit=cover lets the page extend under the phone's home indicator, so
+// env(safe-area-inset-bottom) is non-zero there and the nav bar can pad for it.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
@@ -31,7 +39,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     >
       <body className="min-h-full flex flex-col">
         <AppHeader />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 pb-[calc(var(--shell-nav-height)+env(safe-area-inset-bottom))]">
+          {children}
+        </main>
         <BottomNav />
       </body>
     </html>
