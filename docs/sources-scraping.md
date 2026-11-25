@@ -2,16 +2,16 @@
 
 **Status:** draft for lead review · **Checked:** 2026-11-24 · **Author:** benmochen
 
-Research on **8 Montreal public listing sites** near McGill / downtown (plus 7 additional sites briefly checked) to determine, with evidence, which ones AfterClass may legally collect from automatically and which ones it may not.
+Research on **8 Montreal public listing sites** near McGill / downtown (plus 13 additional Montreal & student platforms briefly checked) to determine, with evidence, which ones AfterClass may legally collect from automatically and which ones it may not.
 
 > **Disclaimer:** This is engineering research, not legal advice. Per ING-03, every site whose terms are unclear or silent on reuse is marked **not allowed**. No automated scraper was run; `robots.txt`, Terms of Use, and top-level pages were inspected manually on **2026-11-24**.
 
 ## Summary
 
-- **Recommended for unauthorized scraping: 0 of 8 sites** (and 0 across 7 additional Montreal sites checked).
+- **Recommended for unauthorized scraping: 0 of 8 sites** (and 0 across 13 additional Montreal / student platforms checked).
 - **Why:** 6 of 8 main sites explicitly prohibit automated collection, copying, or republication without prior written consent (`mcgill.ca` via `robots.txt` + copyright notice, `mtl.org`, `quartierdesspectacles.com`, `lavitrine.com`, `tastet.ca`, `ra.co`). The remaining 2 (`montreal.ca/calendrier` web pages and `ssmu.ca/events/`) reserve all rights or publish no reuse terms, so under our conservative rule they are also **not allowed**.
 - **Best non-scraping alternative already available:** Use **City of Montreal Open Data (`vmtl-evenements-publics`, CC BY 4.0)** from ING-02 instead of scraping `montreal.ca/calendrier`.
-- **Best partnership targets:** As a McGill student initiative (GDG McGill), direct email outreach for written permission or a feed is realistic for **SSMU** (`info@ssmu.ca`), **McGill Channels** (`copyright@mcgill.ca`), **Quartier des Spectacles**, and **La Vitrine**.
+- **Best partnership targets:** As a McGill student initiative (GDG McGill), direct email outreach for written permission or a feed is realistic for **Bounce** (`help@bouncedinc.com` — hosts McGill/SSMU club events), **SSMU** (`info@ssmu.ca`), **McGill Channels** (`copyright@mcgill.ca`), **Quartier des Spectacles**, and **La Vitrine**.
 - **Personal data warning:** McGill and Ville de Montréal event pages frequently include individual organizer names, emails, and phone numbers. Even with permission, ingestion must strip personal contact info (Quebec Law 25 / PIPEDA) and keep only venue/event facts.
 
 ## Sites evaluated (checked 2026-11-24)
@@ -105,10 +105,16 @@ All 8 sites cover venues or events near McGill / downtown Montreal. Detailed quo
 
 ## Other Montreal sites checked (excluded from top 8)
 
-To verify whether *any* local Montreal listing site permits automated collection, 7 additional sites were checked on **2026-11-24** — none are recommended for scraping:
+To verify whether *any* local Montreal or student event platform permits automated collection, 13 additional platforms were checked on **2026-11-24 / 2026-11-25** — none are recommended for scraping:
 
-| Site | Finding (checked 2026-11-24) | Verdict |
+| Site | Finding | Verdict |
 |---|---|---|
+| **Bounce** (`bouncelife.com`) | Hosts many McGill/SSMU club events & parties, but Bounced Inc. ToS prohibits unauthorized scraping and attendee data is under PIPEDA. Strong partnership target (`help@bouncedinc.com`). | **not allowed** |
+| **Eventbrite** (`eventbrite.ca/d/canada--montreal/events/`) | ToS explicitly has *"Scraping or Commercial Use of Site Content is Prohibited"* + anti-bot CAPTCHAs/IP blocks; public search API shut down in 2019 (ING-02). | **not allowed** |
+| **Zeffy** (`zeffy.com`) | Widely used by McGill clubs, but **no public city directory exists** (only individual org checkout links) and ToS explicitly bans *"any robot, spider, scraper, deep link..."*. | **not allowed** |
+| **Luma** (`lu.ma/montreal`) | Montreal tech/hackathon/social events; ToS prohibits automated bots/scrapers without written permission + Cloudflare anti-bot. | **not allowed** |
+| **Shotgun** (`shotgun.live/en/cities/montreal`) | Montreal clubs & electronic nightlife; ToS bans automated extraction + Cloudflare/DataDome anti-bot; no public consumer API. | **not allowed** |
+| **DICE** (`dice.fm/browse/montreal`) | Indie concerts & nightlife; DICE FM Canada ToS bans unauthorized scraping; GraphQL API is strictly promoter/partner-only. | **not allowed** |
 | **Fever Montreal** (`feverup.com/en/montreal`) | [Terms](https://feverup.com/legal/terms_en.html) §8.1.E(vi)–(vii) explicitly bans any *"robot, spider, scraper"* and any aggregation with other websites without written permission. | **not allowed** |
 | **Time Out Montreal** (`timeout.com/montreal`) | [Terms of Use](https://www.timeout.com/terms-of-use) §11.2–11.3 explicitly bans copying, downloading, caching, or any AI/ML use without written consent. | **not allowed** |
 | **Montréal Centre-Ville** (`montrealcentreville.ca/evenements/`) | Only **12 events** listed (mostly duplicate recurring Eaton Centre yoga); no Terms of Use (`© 2026 Tous droits réservés`). Embeds `Event` JSON-LD; better as a student partnership via `/contact/`. | **not allowed** *(too small & unclear)* |
@@ -128,7 +134,7 @@ We do **not** recommend building an automated scraper for any of the sites revie
 3. **Cleanest paths forward for ING-04:**
    - **Use open data already cleared in ING-02:** City of Montreal Open Data (`CC BY 4.0`), OpenStreetMap, and Overture Maps.
    - **Ask for written permission / direct feeds (highest student value):**
-     1. **SSMU (`info@ssmu.ca`) & McGill Channels (`copyright@mcgill.ca`)** — directly fills the campus/student-event gap from ING-02.
+     1. **Bounce (`help@bouncedinc.com`), SSMU (`info@ssmu.ca`), & McGill Channels (`copyright@mcgill.ca`)** — directly fills the campus/student-event gap from ING-02.
      2. **Quartier des Spectacles & La Vitrine** — local non-profit cultural hubs right next to campus.
      3. **Tourisme Montréal & Montréal Centre-Ville** — downtown venues and seasonal festivals.
    - **For nightlife, prices, and reliable opening hours:** Evaluate paid/licensed APIs in **ING-01** or direct organizer/student submissions instead of scraping.
