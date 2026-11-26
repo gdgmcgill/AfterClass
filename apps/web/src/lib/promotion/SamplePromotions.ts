@@ -23,6 +23,7 @@ export const fakePromotions: Promotion[] = [
 		offerText: "Member Benefit",
 		startDate: new Date("2026-11-27T00:00:00.000Z"),
 		endDate: new Date("2026-11-27T00:00:00.000Z"),
+		restrictions: ["18+", "Id Required", "McGill Student"]
 	},
 	{ id: "promotion-4" },
 ];

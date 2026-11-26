@@ -25,6 +25,10 @@ const astaSans = Asta_Sans({
   weight: ["400", "500", "700", "800"],
   variable: "--font-asta-sans",
   subsets: ["latin"],
+  // Next.js has no size data for Asta Sans, so skip its auto-sized fallback
+  // (avoids the "Failed to find font override values" warning) and use system fonts instead.
+  adjustFontFallback: false,
+  fallback: ["system-ui", "sans-serif"],
 });
 
 export const metadata: Metadata = {

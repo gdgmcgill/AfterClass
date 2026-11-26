@@ -95,11 +95,14 @@ export function PromotionCard({ promotion }: PromotionCardProps) {
           </Badge>
           <div className="flex flex-col gap-1.5 rounded-lg border-4 border-foreground bg-secondary px-4 py-3 text-secondary-foreground">
             {restrictions.length > 0 ? (
-              <ul className="flex list-disc flex-col gap-1 pl-5 text-2xl leading-snug">
-                {restrictions.map((restriction) => (
-                  <li key={restriction} className="break-words">{restriction}</li>
-                ))}
-              </ul>
+              <div className="flex flex-col gap-1">
+                <p className="text-2xl leading-snug">Restrictions:</p>
+                <ul className="flex list-disc flex-col gap-1 pl-5 text-2xl leading-snug">
+                  {restrictions.map((restriction) => (
+                    <li key={restriction} className="break-words">{restriction}</li>
+                  ))}
+                </ul>
+              </div>
             ) : (
               <p className="text-2xl leading-snug">No restrictions</p>
             )}
