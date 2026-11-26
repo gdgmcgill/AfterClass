@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Asta_Sans, Geist, Geist_Mono, Racing_Sans_One } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/utils";
-
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +10,20 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+// Title style (see globals.css)
+const racingSansOne = Racing_Sans_One({
+  weight: "400",
+  variable: "--font-racing-sans",
+  subsets: ["latin"],
+});
+
+// Heading, Heading 2/3, Body and Label styles: Regular, Medium, Bold, ExtraBold (see globals.css)
+const astaSans = Asta_Sans({
+  weight: ["400", "500", "700", "800"],
+  variable: "--font-asta-sans",
   subsets: ["latin"],
 });
 
@@ -25,7 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
+      className={`${geistSans.variable} ${geistMono.variable} ${racingSansOne.variable} ${astaSans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

@@ -3,6 +3,10 @@ import { notFound } from 'next/navigation';
 import { connection } from 'next/server';
 import { PlaceCard } from '@/components/PlaceCard';
 import { samplePlaces } from '@/lib/sample-places';
+import EventCard from '@/components/EventCard';
+import PromotionCard from '@/components/PromotionCard';
+import { fakeEvents } from '@/lib/event/SampleEvents';
+import { fakePromotions } from '@/lib/promotion/SamplePromotions';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import {
@@ -32,6 +36,14 @@ export default function DevComponentsPage() {
         <Suspense fallback={<p>Loading…</p>}>
           <SamplePlaceCards />
         </Suspense>
+        <h2 className="text-lg font-semibold">Event cards</h2>
+        <Suspense fallback={<p>Loading…</p>}>
+          <SampleEventCards />
+        </Suspense>
+        <h2 className="text-lg font-semibold">Promotion cards</h2>
+        <Suspense fallback={<p>Loading…</p>}>
+          <SamplePromotionCards />
+        </Suspense>
         <UiComponents />
       </main>
     </div>
@@ -47,6 +59,28 @@ async function SamplePlaceCards() {
   }
 
   return samplePlaces.map((place) => <PlaceCard key={place.id} place={place} />);
+}
+
+async function SampleEventCards() {
+  // connection() so the Upcoming/Ends soon/Expired status uses today's date
+  await connection();
+
+  if (process.env.APP_ENV === 'production') {
+    notFound();
+  }
+
+  return fakeEvents.map((event) => <EventCard key={event.id} event={event} />);
+}
+
+async function SamplePromotionCards() {
+  // connection() so the Active/Ends soon/Expired status uses today's date
+  await connection();
+
+  if (process.env.APP_ENV === 'production') {
+    notFound();
+  }
+
+  return fakePromotions.map((promotion) => <PromotionCard key={promotion.id} promotion={promotion} />);
 }
 
 function UiComponents() {
