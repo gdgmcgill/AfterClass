@@ -35,7 +35,7 @@ async function PlaceDetails({ params }: PlacePageProps) {
   const freshness = getFreshness(place);
 
   return (
-    <main>
+    <div>
       <h1>{place.name}</h1>
       <FreshnessStamp freshness={freshness} />
       <p>{place.category}</p>
@@ -64,6 +64,6 @@ async function PlaceDetails({ params }: PlacePageProps) {
       ) : (
         <p>Source not available</p>
       )}
-    </main>
+    </div>
   );
 }
