@@ -1,0 +1,261 @@
+{
+  "results": [
+    {
+      "fsq_place_id": "4addf655f964a520c66621e3",
+      "latitude": 45.50416893561784,
+      "longitude": -73.57966398159805,
+      "categories": [
+        {
+          "fsq_category_id": "4bf58dd8d48988d1a9941735",
+          "name": "College Rec Center",
+          "short_name": "Rec Center",
+          "plural_name": "College Rec Centers",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/education/reccenter_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "fsq_category_id": "4bf58dd8d48988d1e0931735",
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "fsq_category_id": "4bf58dd8d48988d116941735",
+          "name": "Bar",
+          "short_name": "Bar",
+          "plural_name": "Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "date_created": "2009-10-20",
+      "date_refreshed": "2026-10-16",
+      "distance": 204,
+      "extended_location": {},
+      "link": "/places/4addf655f964a520c66621e3",
+      "location": {
+        "address": "3650, rue McTavish",
+        "locality": "Montréal",
+        "region": "QC",
+        "postcode": "H3A 1Y2",
+        "country": "CA",
+        "formatted_address": "3650, rue McTavish (Docteur Penfield), Montréal QC H3A 1Y2"
+      },
+      "name": "Thomson House",
+      "placemaker_url": "https://foursquare.com/placemakers/review-place/4addf655f964a520c66621e3",
+      "related_places": {},
+      "social_media": {
+        "twitter": ""
+      },
+      "tel": "(514) 398-3756",
+      "website": "http://thomsonhouse.ca"
+    },
+    {
+      "fsq_place_id": "567aba8e498e6b5bdd0ad844",
+      "latitude": 45.499473354323015,
+      "longitude": -73.57787434670752,
+      "categories": [
+        {
+          "fsq_category_id": "4bf58dd8d48988d1d4941735",
+          "name": "Speakeasy",
+          "short_name": "Speakeasy",
+          "plural_name": "Speakeasies",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/secretbar_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "date_created": "2015-12-23",
+      "date_refreshed": "2026-11-10",
+      "distance": 594,
+      "extended_location": {},
+      "link": "/places/567aba8e498e6b5bdd0ad844",
+      "location": {
+        "address": "2175 Rue de la Montagne # 100",
+        "locality": "Montréal",
+        "region": "QC",
+        "postcode": "H3G 1Z8",
+        "country": "CA",
+        "formatted_address": "2175 Rue de la Montagne # 100, Montréal QC H3G 1Z8"
+      },
+      "name": "Cloakroom Bar",
+      "placemaker_url": "https://foursquare.com/placemakers/review-place/567aba8e498e6b5bdd0ad844",
+      "related_places": {},
+      "social_media": {
+        "twitter": ""
+      },
+      "tel": "(514) 284-9393",
+      "website": "https://www.cloakroombarmtl.com"
+    },
+    {
+      "fsq_place_id": "5928b8f482a7501cafce9f60",
+      "latitude": 45.499080894437846,
+      "longitude": -73.57567500562676,
+      "categories": [
+        {
+          "fsq_category_id": "4bf58dd8d48988d1d5941735",
+          "name": "Hotel Bar",
+          "short_name": "Hotel Bar",
+          "plural_name": "Hotel Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bar_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "date_created": "2017-05-26",
+      "date_refreshed": "2026-11-20",
+      "distance": 646,
+      "extended_location": {},
+      "link": "/places/5928b8f482a7501cafce9f60",
+      "location": {
+        "address": "1440 Rue Drummond",
+        "locality": "Montréal",
+        "region": "QC",
+        "postcode": "H3G 1V9",
+        "country": "CA",
+        "formatted_address": "1440 Rue Drummond, Montréal QC H3G 1V9"
+      },
+      "name": "Bar George",
+      "placemaker_url": "https://foursquare.com/placemakers/review-place/5928b8f482a7501cafce9f60",
+      "related_places": {},
+      "social_media": {
+        "facebook_id": "219522218525027",
+        "instagram": "bargeorgemtl",
+        "twitter": ""
+      },
+      "tel": "(514) 669-9243",
+      "website": "http://bargeorge.ca"
+    },
+    {
+      "fsq_place_id": "4b6a4262f964a520a1cf2be3",
+      "latitude": 45.50057135740623,
+      "longitude": -73.56942769961925,
+      "categories": [
+        {
+          "fsq_category_id": "4bf58dd8d48988d1cc941735",
+          "name": "Steakhouse",
+          "short_name": "Steakhouse",
+          "plural_name": "Steakhouses",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "fsq_category_id": "4bf58dd8d48988d116941735",
+          "name": "Bar",
+          "short_name": "Bar",
+          "plural_name": "Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [
+        {
+          "fsq_chain_id": "574706ce498e4bbc3979b746",
+          "name": "The Keg Steakhouse & Bar"
+        }
+      ],
+      "date_created": "2010-02-04",
+      "date_refreshed": "2026-11-23",
+      "distance": 766,
+      "extended_location": {},
+      "link": "/places/4b6a4262f964a520a1cf2be3",
+      "location": {
+        "address": "5 Place Ville-Marie",
+        "locality": "Montréal",
+        "region": "QC",
+        "postcode": "H3B 2G2",
+        "country": "CA",
+        "formatted_address": "5 Place Ville-Marie (coin René-Levesque), Montréal QC H3B 2G2"
+      },
+      "name": "The Keg Steakhouse + Bar",
+      "placemaker_url": "https://foursquare.com/placemakers/review-place/4b6a4262f964a520a1cf2be3",
+      "related_places": {},
+      "social_media": {
+        "twitter": "thekeg"
+      },
+      "tel": "(514) 868-1999",
+      "website": "https://kegsteakhouse.com/en/locations/place-ville-marie"
+    },
+    {
+      "fsq_place_id": "59622257531593143d4e0ff9",
+      "latitude": 45.500772736420465,
+      "longitude": -73.56819969224792,
+      "categories": [
+        {
+          "fsq_category_id": "4bf58dd8d48988d11e941735",
+          "name": "Cocktail Bar",
+          "short_name": "Cocktail",
+          "plural_name": "Cocktail Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "date_created": "2017-07-09",
+      "date_refreshed": "2026-11-19",
+      "distance": 831,
+      "extended_location": {},
+      "link": "/places/59622257531593143d4e0ff9",
+      "location": {
+        "address": "900 Blvd René-Lévesque O",
+        "locality": "Montréal",
+        "region": "QC",
+        "postcode": "H3B 4A5",
+        "country": "CA",
+        "formatted_address": "900 Blvd René-Lévesque O, Montréal QC H3B 4A5"
+      },
+      "name": "Bar Nacarat",
+      "placemaker_url": "https://foursquare.com/placemakers/review-place/59622257531593143d4e0ff9",
+      "related_places": {
+        "parent": {
+          "fsq_place_id": "4ad4c069f964a520a4f820e3",
+          "categories": [
+            {
+              "fsq_category_id": "4bf58dd8d48988d1fa931735",
+              "name": "Hotel",
+              "short_name": "Hotel",
+              "plural_name": "Hotels",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+                "suffix": ".png"
+              }
+            }
+          ],
+          "name": "Fairmont The Queen Elizabeth"
+        }
+      },
+      "social_media": {
+        "instagram": "nacaratmtl",
+        "twitter": ""
+      },
+      "tel": "(514) 954-2872",
+      "website": "https://www.barnacarat.com"
+    }
+  ],
+  "context": {
+    "geo_bounds": {
+      "circle": {
+        "center": {
+          "latitude": 45.5048,
+          "longitude": -73.5772
+        },
+        "radius": 1000
+      }
+    }
+  }
+}
