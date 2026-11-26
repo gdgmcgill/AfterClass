@@ -1,3 +1,4 @@
+import { samplePlaces } from "../sample-places";
 import { Event } from "./Event";
 
 const referenceDate = Date.UTC;
@@ -9,13 +10,14 @@ export const fakeEvents: Event[] = [
 		startTime: new Date("2027-02-01T10:30:00.000Z"),
 		endTime: new Date("2027-02-01T23:30:00.000Z"),
 		price: 10.0,
-		place: "test"
+		place: samplePlaces[0]
 	},
 	{
 		id: "event-2",
 		title: "Past Workshop",
 		startTime: new Date("2024-05-01T10:00:00.000Z"),
 		endTime: new Date("2024-05-01T11:00:00.000Z"),
+		place: samplePlaces[1]
 	},
 	{
 		id: "event-3",
