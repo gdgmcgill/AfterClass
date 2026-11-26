@@ -1,0 +1,7053 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-19T19:33:17Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 229609745,
+      "lat": 45.5009986,
+      "lon": -73.5723084,
+      "tags": {
+        "addr:housenumber": "977",
+        "addr:postcode": "H3B 4W3",
+        "addr:street": "rue Sainte-Catherine Ouest",
+        "amenity": "cinema",
+        "brand": "Cineplex",
+        "brand:wikidata": "Q2972807",
+        "brand:wikipedia": "en:Cineplex Entertainment",
+        "check_date": "2026-09-18",
+        "is_in:city": "Montréal",
+        "name": "Cinéma Banque Scotia Montréal",
+        "name:en": "Scotiabank Theatre",
+        "name:fr": "Cinéma Banque Scotia Montréal",
+        "old_name": "Paramount Montréal",
+        "operator": "Cineplex",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-514-842-0549",
+        "website": "https://www.cineplex.com/theatre/cinema-banque-scotia-montreal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 229612116,
+      "lat": 45.5104646,
+      "lon": -73.5750036,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3575",
+        "addr:postcode": "H2X 3P9",
+        "addr:province": "QC",
+        "addr:street": "Avenue du Parc",
+        "addr:unit": "suite 6100",
+        "amenity": "cinema",
+        "check_date": "2025-09-28",
+        "internet_access": "yes",
+        "level": "-1",
+        "name": "Cinéma du Parc",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-514-281-1900",
+        "screen": "3",
+        "website": "https://cinemaduparc.com/affiche.php",
+        "wheelchair": "limited",
+        "wikidata": "Q38271483"
+      }
+    },
+    {
+      "type": "node",
+      "id": 245512739,
+      "lat": 45.497185,
+      "lon": -73.5754903,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1356",
+        "addr:postcode": "H3G 1P6",
+        "addr:province": "Québec",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "brand": "3 Brasseurs",
+        "brand:wikidata": "Q3230326",
+        "contact:website": "https://www.les3brasseurs.ca/fr/trouver-un-3-brasseurs/crescent/",
+        "cuisine": "burger;pizza;seafood",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "3 Brasseurs",
+        "name:en": "3 Brewers",
+        "not:brand:wikidata": "Q3230326",
+        "official_name": "Les 3 Brasseurs",
+        "outdoor_seating": "no",
+        "phone": "+1-514-788-9788",
+        "takeaway": "yes",
+        "website": "https://www.les3brasseurs.ca/fr/trouver-un-3-brasseurs/crescent/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 245512741,
+      "lat": 45.4972187,
+      "lon": -73.5774768,
+      "tags": {
+        "addr:housenumber": "1445",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "diet:vegetarian": "no",
+        "name": "Le Garden Room",
+        "opening_hours": "Mo-We 12:00-23:00; Th-Su 12:00-02:00",
+        "phone": "+1 438 603 5603",
+        "website": "https://www.legardenroom.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 393143427,
+      "lat": 45.4994016,
+      "lon": -73.5719392,
+      "tags": {
+        "amenity": "pub",
+        "name": "Peel Pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 868479771,
+      "lat": 45.5046362,
+      "lon": -73.5724408,
+      "tags": {
+        "addr:housenumber": "2075",
+        "addr:street": "Boulevard Robert-Bourassa",
+        "amenity": "cafe",
+        "name": "Hinnawi Bros",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su 09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 868480314,
+      "lat": 45.5047057,
+      "lon": -73.5723761,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 868484681,
+      "lat": 45.5046192,
+      "lon": -73.5725907,
+      "tags": {
+        "addr:housenumber": "655",
+        "addr:street": "Avenue du Président-Kennedy",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q2818848",
+        "brand:wikipedia": "en:A&W (Canada)",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 870940088,
+      "lat": 45.5039971,
+      "lon": -73.5681385,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Il Foccolaio",
+        "opening_hours": "Mo-We 11:00-20:30; Th 11:00-21:00; Fr,Sa 11:00-21:30; Su off",
+        "outdoor_seating": "yes",
+        "oven": "wood_fired"
+      }
+    },
+    {
+      "type": "node",
+      "id": 926984561,
+      "lat": 45.5070385,
+      "lon": -73.5760144,
+      "tags": {
+        "addr:housenumber": "625",
+        "addr:street": "Rue Milton",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "McGill Pizza",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 934879416,
+      "lat": 45.4979437,
+      "lon": -73.5769764,
+      "tags": {
+        "amenity": "pub",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "Sir Winston Churchill",
+        "website": "https://winniesbar.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 934881660,
+      "lat": 45.4991822,
+      "lon": -73.5735117,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Second Cup",
+        "brand:wikidata": "Q862180",
+        "brand:wikipedia": "en:Second Cup",
+        "cuisine": "coffee_shop",
+        "name": "Second Cup",
+        "opening_hours": "Su 08:30-20:30; Mo-Th 07:00-21:00; Fr 07:00-22:00; Sa 09:00-22:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936010440,
+      "lat": 45.5072463,
+      "lon": -73.5758087,
+      "tags": {
+        "addr:housenumber": "545",
+        "addr:street": "Rue Milton",
+        "amenity": "restaurant",
+        "diet:vegan": "only",
+        "name": "Lola Rosa",
+        "opening_hours": "Mo-Su 11:30-21:30",
+        "phone": "+1-514-287-9337",
+        "website": "https://lola-rosa.ca/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936118433,
+      "lat": 45.5020131,
+      "lon": -73.570739,
+      "tags": {
+        "addr:housenumber": "732",
+        "addr:postcode": "H2X 2A1",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "brand": "3 Brasseurs",
+        "brand:wikidata": "Q3230326",
+        "cuisine": "burger;pizza;seafood",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "3 Brasseurs",
+        "name:en": "3 Brewers",
+        "name:fr": "3 Brasseurs",
+        "official_name": "Les 3 Brasseurs",
+        "opening_hours": "Su-Th 11:30-23:00; Fr,Sa 11:30-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936816417,
+      "lat": 45.5058237,
+      "lon": -73.5736224,
+      "tags": {
+        "amenity": "theatre",
+        "check_date": "2026-10-03",
+        "name": "Pollack Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936816434,
+      "lat": 45.5037935,
+      "lon": -73.5772791,
+      "tags": {
+        "amenity": "theatre",
+        "check_date": "2024-06-14",
+        "name": "Redpath Hall",
+        "name:fr": "Salle Redpath",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936816442,
+      "lat": 45.5062771,
+      "lon": -73.5730646,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "527",
+        "addr:postcode": "H3A 1E3",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "theatre",
+        "name": "Tanna Schulich Hall",
+        "operator": "Schulich School of Music",
+        "website": "https://www.mcgill.ca/music/about-us/halls/tanna-schulich-hall",
+        "wheelchair": "yes",
+        "wikidata": "Q138076651"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936979474,
+      "lat": 45.5053767,
+      "lon": -73.5729096,
+      "tags": {
+        "addr:housenumber": "626",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Java u",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr 07:00-20:00; Sa-Su 08:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 988366394,
+      "lat": 45.4966812,
+      "lon": -73.5744587,
+      "tags": {
+        "addr:housenumber": "1219",
+        "addr:street": "cresent",
+        "amenity": "pub",
+        "automatic_door": "no",
+        "door": "hinged",
+        "entrance": "yes",
+        "name": "Brutopia",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 998102228,
+      "lat": 45.502621,
+      "lon": -73.5801,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 998748014,
+      "lat": 45.4959818,
+      "lon": -73.5796559,
+      "tags": {
+        "addr:housenumber": "2081",
+        "addr:street": "Rue Guy",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "check_date:opening_hours": "2025-09-11",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-Su 00:00+",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1056065496,
+      "lat": 45.4996172,
+      "lon": -73.5744914,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057459472,
+      "lat": 45.503352,
+      "lon": -73.569424,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "check_date": "2026-10-25",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "http://www.mcdonalds.ca/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057460417,
+      "lat": 45.5042152,
+      "lon": -73.5685891,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "check_date": "2025-08-30",
+        "cuisine": "burger",
+        "name": "Burger King",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057471110,
+      "lat": 45.50698,
+      "lon": -73.5661567,
+      "tags": {
+        "addr:housenumber": "262",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "cafe",
+        "check_date": "2026-08-14",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Columbus Café & Co",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://www.columbuscafe.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057471230,
+      "lat": 45.507302,
+      "lon": -73.565653,
+      "tags": {
+        "addr:housenumber": "190",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Eggspectation",
+        "opening_hours": "Mo-Su 07:00-16:00; Th-Sa 07:00-20:00",
+        "phone": "+1 514 288-6448",
+        "website": "https://www.eggspectation.ca/complexe-desjardins/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057471381,
+      "lat": 45.507375,
+      "lon": -73.565492,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Baton Rouge",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057471697,
+      "lat": 45.507465,
+      "lon": -73.565388,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sushi Shop",
+        "brand:wikidata": "Q64840990",
+        "cuisine": "sushi",
+        "name": "Sushi Shop",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1068187559,
+      "lat": 45.501941,
+      "lon": -73.572354,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Au Vieux Duluth Express",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1068211769,
+      "lat": 45.501834,
+      "lon": -73.572193,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Tiki Ming Cuisine Chinoise",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1192154422,
+      "lat": 45.4968227,
+      "lon": -73.5772264,
+      "tags": {
+        "amenity": "pub",
+        "name": "Mckibbins Pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1192163640,
+      "lat": 45.4966171,
+      "lon": -73.5789917,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2002",
+        "addr:postcode": "H3G 2J1",
+        "addr:province": "QC",
+        "addr:street": "Rue Mackay",
+        "amenity": "fast_food",
+        "check_date:opening_hours": "2024-07-27",
+        "cuisine": "kebab",
+        "name": "Kebab Express",
+        "opening_hours:signed": "no",
+        "step_count": "5",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1199285545,
+      "lat": 45.4968705,
+      "lon": -73.5748362,
+      "tags": {
+        "amenity": "pub",
+        "name": "Hurley's",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1199366669,
+      "lat": 45.4963654,
+      "lon": -73.5783838,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1450",
+        "addr:postcode": "H3G 2H7",
+        "addr:province": "Québec",
+        "addr:street": "Rue Mackay",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-22:00",
+        "operator": "Krispy Kreme",
+        "phone": "+1-514-665-6983",
+        "shop": "bakery",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1199366699,
+      "lat": 45.4970185,
+      "lon": -73.5756395,
+      "tags": {
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Columbus Café & Co",
+        "opening_hours": "Mo-Fr 07:30-21:00; Sa,Su 08:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1199366733,
+      "lat": 45.4961292,
+      "lon": -73.5799412,
+      "tags": {
+        "addr:housenumber": "2125",
+        "addr:street": "Rue Guy",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Al-Taïb",
+        "phone": "+1-514-931-1999",
+        "website": "http://www.altaib.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1199366737,
+      "lat": 45.4968178,
+      "lon": -73.5751849,
+      "tags": {
+        "amenity": "pub",
+        "automatic_door": "no",
+        "check_date": "2024-08-13",
+        "door": "hinged",
+        "name": "Mad Hatters",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1200671675,
+      "lat": 45.4977858,
+      "lon": -73.5774405,
+      "tags": {
+        "amenity": "bar",
+        "name": "Newtown",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1200671729,
+      "lat": 45.4980546,
+      "lon": -73.5778401,
+      "tags": {
+        "addr:housenumber": "2020A",
+        "addr:postcode": "H3G 2B8",
+        "addr:street": "Rue Crescent",
+        "amenity": "fast_food",
+        "cuisine": "lebanese",
+        "name": "Boustan",
+        "website": "https://boustan.ca/",
+        "wheelchair": "no",
+        "wikidata": "Q4950408",
+        "wikipedia:en": "Boustan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1201288275,
+      "lat": 45.4975169,
+      "lon": -73.5767685,
+      "tags": {
+        "addr:housenumber": "1434",
+        "addr:street": "Crescent Street",
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "check_date": "2024-08-13",
+        "cuisine": "italian",
+        "name": "Wienstein & Gavino's",
+        "website": "https://www.wgmtl.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1201288284,
+      "lat": 45.4982639,
+      "lon": -73.5776034,
+      "tags": {
+        "amenity": "bar",
+        "name": "Stogies",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1201288314,
+      "lat": 45.4975743,
+      "lon": -73.576857,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "cuisine": "pizza",
+        "name": "California Pizza",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202560995,
+      "lat": 45.4973665,
+      "lon": -73.5720519,
+      "tags": {
+        "addr:housenumber": "1221",
+        "addr:street": "Boulevard René-Lévesque Ouest",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "internet_access": "wlan",
+        "name": "Bier Markt Montreal",
+        "opening_hours": "Mo-We 11:30-24:00, Th 11:30-02:00, Fr,Sa 11:30-03:00, Su 11:30-24:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202561079,
+      "lat": 45.4973872,
+      "lon": -73.5753107,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Shawarmaz",
+        "opening_hours": "Su-Th 11:00-01:00, Fr,Sa 11:00-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202561108,
+      "lat": 45.4992991,
+      "lon": -73.5760644,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Le Pois Penché",
+        "opening_hours": "Mo-Su 17:00-22:00, Tu-Fr 11:30-15:00, Sa,Su 10:30-15:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202687596,
+      "lat": 45.4972594,
+      "lon": -73.5734412,
+      "tags": {
+        "amenity": "pub",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "Ye Olde Orchard Pub & Grill",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202690811,
+      "lat": 45.4974756,
+      "lon": -73.5766599,
+      "tags": {
+        "amenity": "bar",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "Seven",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202690858,
+      "lat": 45.4982652,
+      "lon": -73.5771038,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "brand:wikipedia": "en:Ben & Jerry's",
+        "check_date": "2025-11-06",
+        "check_date:diet:vegan": "2025-11-06",
+        "check_date:opening_hours": "2025-11-06",
+        "cuisine": "ice_cream",
+        "diet:vegan": "no",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Su-Th 12:00-22:00; Fr,Sa 12:00-23:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202690860,
+      "lat": 45.4976589,
+      "lon": -73.5763729,
+      "tags": {
+        "amenity": "bar",
+        "automatic_door": "no",
+        "name": "Taverne Crescent",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1204313119,
+      "lat": 45.4984151,
+      "lon": -73.5773986,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1333",
+        "addr:postcode": "H3G 2R9",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "restaurant",
+        "cuisine": "mediterranean",
+        "name": "Nara Reto Lounge",
+        "was:amenity": "fast_food",
+        "was:name": "Amir",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1205131688,
+      "lat": 45.4985915,
+      "lon": -73.5768385,
+      "tags": {
+        "amenity": "cafe",
+        "name": "M Café"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1205171430,
+      "lat": 45.502982,
+      "lon": -73.568648,
+      "tags": {
+        "addr:housenumber": "636",
+        "addr:postcode": "H3B 3C4",
+        "addr:street": "Cathcart",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-11-02",
+        "int_name": "Old Dublin",
+        "name": "Le Vieux Dublin",
+        "name:en": "Old Dublin Pub",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1231381513,
+      "lat": 45.4985268,
+      "lon": -73.5795792,
+      "tags": {
+        "addr:housenumber": "1384",
+        "addr:postcode": "H3G 2E8",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "name": "Le café des beaux-arts",
+        "operator:wikidata": "Q133821167",
+        "step_count": "0",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1231386090,
+      "lat": 45.4986932,
+      "lon": -73.5800213,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1379A",
+        "addr:postcode": "H3G 1K3",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "alt_name": "Auditorium Maxwell-Cummings",
+        "alt_name:en": "Maxwell Cummings Auditorium",
+        "alt_name:fr": "Auditorium Maxwell-Cummings",
+        "amenity": "cinema",
+        "name": "Cinéma du Musée",
+        "screen": "1",
+        "wikidata": "Q129774482"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1231398349,
+      "lat": 45.4979195,
+      "lon": -73.5789216,
+      "tags": {
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Tianxia",
+        "step_count": "8",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1231401107,
+      "lat": 45.4980869,
+      "lon": -73.577919,
+      "tags": {
+        "addr:housenumber": "2020",
+        "addr:street": "Rue Crescent",
+        "amenity": "bar",
+        "name": "Light Ultraclub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232026780,
+      "lat": 45.4970237,
+      "lon": -73.5809582,
+      "tags": {
+        "addr:housenumber": "1504",
+        "addr:postcode": "H3G 1L3",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "restaurant",
+        "name": "Bice Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232026851,
+      "lat": 45.498273,
+      "lon": -73.5782894,
+      "tags": {
+        "addr:housenumber": "2110",
+        "addr:postcode": "H3G 2B8",
+        "addr:street": "Rue Crescent",
+        "amenity": "bar",
+        "name": "K Karaoke Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232026883,
+      "lat": 45.4986885,
+      "lon": -73.5785469,
+      "tags": {
+        "addr:housenumber": "2171",
+        "addr:postcode": "H3G 2C1",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Troika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232026955,
+      "lat": 45.4986283,
+      "lon": -73.5783698,
+      "tags": {
+        "addr:housenumber": "2137",
+        "addr:postcode": "H3G 2C1",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "L'Autre Saison",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232026967,
+      "lat": 45.4982373,
+      "lon": -73.5782196,
+      "tags": {
+        "addr:housenumber": "2100",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "L'Académie",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232026989,
+      "lat": 45.4983266,
+      "lon": -73.5777757,
+      "tags": {
+        "addr:housenumber": "2045",
+        "addr:postcode": "H3G 2C1",
+        "addr:street": "Rue Crescent",
+        "amenity": "cafe",
+        "brand": "Nespresso",
+        "brand:wikidata": "Q301301",
+        "brand:wikipedia": "en:Nespresso",
+        "name": "Nespresso",
+        "shop": "coffee",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237960420,
+      "lat": 45.4990103,
+      "lon": -73.5731543,
+      "tags": {
+        "addr:housenumber": "1264",
+        "addr:street": "Rue Stanley",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Restaurant Santa Lucia",
+        "phone": "+1-514-393-8623"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237960449,
+      "lat": 45.4987264,
+      "lon": -73.5739992,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1198",
+        "addr:postcode": "H3B 1K1",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "Mister Steer",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1-514-866-3233",
+        "website": "https://www.globeater.com/view-restaurant/?restaurant_name=Mister+Steer&id=694",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237960466,
+      "lat": 45.4982743,
+      "lon": -73.5737766,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Cités d'Asie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237960501,
+      "lat": 45.4988961,
+      "lon": -73.5729384,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Chez Lien Plus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1263357003,
+      "lat": 45.4974073,
+      "lon": -73.5785128,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1455",
+        "addr:province": "QC",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "theatre",
+        "check_date": "2024-05-17",
+        "email": "finearts.venuerentals@concordia.ca",
+        "level": "-2",
+        "level:ref": "00",
+        "name": "Théâtre de Concordia",
+        "name:en": "Concordia Theatre",
+        "name:fr": "Théâtre de Concordia",
+        "old_name": "Théâtre D.B. Clarke",
+        "old_name:en": "D.B. Clarke Theatre",
+        "old_name:fr": "Théâtre D.B. Clarke",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1263357004,
+      "lat": 45.4963996,
+      "lon": -73.5778047,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1400",
+        "addr:province": "Québec",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "cinema",
+        "check_date": "2025-01-26",
+        "level": "0",
+        "name": "Salle de cinéma J.A. DeSève",
+        "name:en": "J.A. DeSève Cinema",
+        "name:fr": "Salle de cinéma J.A. DeSève",
+        "opening_hours": "\"24/7 but only open when events happening\"",
+        "website": "https://www.concordia.ca/it/services/cinemas.html",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1263357123,
+      "lat": 45.4960734,
+      "lon": -73.5778526,
+      "tags": {
+        "addr:housenumber": "1432",
+        "addr:street": "Rue Mackay",
+        "amenity": "cafe",
+        "email": "info@cafemyriade.com",
+        "name": "Myriade",
+        "opening_hours": "Mo-Fr 07:30-19:00; Sa,Su 09:00-19:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-514-939-1717",
+        "website": "https://www.cafemyriade.com/wp/mackay/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271418874,
+      "lat": 45.4974721,
+      "lon": -73.5801931,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "organic",
+        "name": "Crudessence",
+        "step_count": "6",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271418877,
+      "lat": 45.4974156,
+      "lon": -73.5801287,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Riz en folie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271672559,
+      "lat": 45.501726,
+      "lon": -73.570212,
+      "tags": {
+        "addr:housenumber": "1241",
+        "addr:postcode": "H3B 5K4",
+        "addr:street": "Avenue McGill-College",
+        "amenity": "cafe",
+        "name": "Java U Café",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271672562,
+      "lat": 45.5014441,
+      "lon": -73.5705145,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Café Dépôt",
+        "brand:wikidata": "Q64924449",
+        "cuisine": "coffee_shop;cake;bagel;bistro",
+        "name": "Café Dépôt",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271672571,
+      "lat": 45.5017674,
+      "lon": -73.5703053,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Boccacinos",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271672578,
+      "lat": 45.5015542,
+      "lon": -73.5707884,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1200",
+        "addr:postcode": "H3B 4G7",
+        "addr:province": "QC",
+        "addr:street": "Avenue McGill College",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "brand:wikipedia": "en:Ben & Jerry's",
+        "check_date:opening_hours": "2022-11-26",
+        "cuisine": "ice_cream",
+        "delivery": "no",
+        "diet:vegetarian": "only",
+        "name": "Ben & Jerry's",
+        "opening_hours": "12:00-21:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1271672582,
+      "lat": 45.5006443,
+      "lon": -73.5692327,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "dessert",
+        "name": "Brioche doré",
+        "shop": "bakery",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1278623199,
+      "lat": 45.507945,
+      "lon": -73.567699,
+      "tags": {
+        "addr:housenumber": "1485",
+        "addr:postcode": "H2X 1Z9",
+        "addr:street": "Rue Jeanne-Mance",
+        "amenity": "restaurant",
+        "contact:facebook": "KamuyRestaurant",
+        "contact:instagram": "kamuyrestaurant",
+        "cuisine": "local",
+        "email": "info-reservation@kamuy.ca",
+        "name": "Restaurant Kamúy",
+        "opening_hours": "Su, We-Th 17:00-22:30; Fr-Sa 17:00-00:00",
+        "phone": "+1-514-447-7481",
+        "website": "https://www.kamuy.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1278632281,
+      "lat": 45.5029402,
+      "lon": -73.5668224,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "brand:wikipedia": "en:Tim Hortons",
+        "check_date": "2024-08-21",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Tim Hortons",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281694745,
+      "lat": 45.5015799,
+      "lon": -73.5708526,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bistro le Cap Vert"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281694786,
+      "lat": 45.5041374,
+      "lon": -73.5684055,
+      "tags": {
+        "addr:housenumber": "1245",
+        "addr:street": "Rue du Square-Phillips",
+        "amenity": "restaurant",
+        "cuisine": "poke",
+        "name": "Poke Monster"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281694808,
+      "lat": 45.5066619,
+      "lon": -73.5668057,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "305",
+        "addr:postcode": "H2X 2A3",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "alt_name": "L'Astral",
+        "amenity": "theatre",
+        "check_date": "2026-10-31",
+        "name": "Le Studio TD",
+        "phone": "+1 514 2888882",
+        "theatre:genre": "music",
+        "website": "https://www.lestudiotd.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281694815,
+      "lat": 45.5040706,
+      "lon": -73.5682724,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Second Cup",
+        "brand:wikidata": "Q862180",
+        "brand:wikipedia": "en:Second Cup",
+        "cuisine": "coffee_shop",
+        "name": "Second Cup",
+        "takeaway": "yes",
+        "website": "https://secondcup.com/location/phillips-square/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281694833,
+      "lat": 45.5039801,
+      "lon": -73.568077,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "indoor_seating": "yes",
+        "name": "Pho Li Quoc Su",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281694896,
+      "lat": 45.5032684,
+      "lon": -73.567349,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jatoba"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1281695006,
+      "lat": 45.5035896,
+      "lon": -73.5672613,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Le Carre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1282761406,
+      "lat": 45.5059225,
+      "lon": -73.5762818,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "cafeteria",
+        "name": "McConnell Cafe",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290834848,
+      "lat": 45.4994794,
+      "lon": -73.5721018,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "asian",
+        "name": "Nouilles Beijing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290834879,
+      "lat": 45.5005463,
+      "lon": -73.5716378,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1249",
+        "addr:postcode": "H3B 2V5",
+        "addr:province": "QC",
+        "addr:street": "Rue Metcalfe",
+        "amenity": "restaurant",
+        "capacity": "75",
+        "cuisine": "deli",
+        "indoor_seating": "yes",
+        "name": "Dunn's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+1-514-395-1927",
+        "smoking": "no",
+        "website": "https://www.dunnsfamous.com/",
+        "wheelchair": "limited",
+        "wikidata": "Q3041361",
+        "wikipedia": "fr:Dunn's Famous"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290835014,
+      "lat": 45.4992134,
+      "lon": -73.5715949,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Le Piment Rouge",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290835091,
+      "lat": 45.5005096,
+      "lon": -73.5715587,
+      "tags": {
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "name": "Taverne Dominion Square",
+        "opening_hours": "Mo-Su 14:00-02:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290835184,
+      "lat": 45.4995161,
+      "lon": -73.572142,
+      "tags": {
+        "amenity": "pub",
+        "cuisine": "burger;irish;local;pizza",
+        "name": "McLean's Pub",
+        "opening_hours": "Mo-Su 11:00-03:00",
+        "website": "https://www.mcleanspub.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290835202,
+      "lat": 45.4994662,
+      "lon": -73.5720602,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290835215,
+      "lat": 45.4990489,
+      "lon": -73.5712569,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "spanish",
+        "name": "El Diablo Rojo",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1290835371,
+      "lat": 45.4995471,
+      "lon": -73.5722104,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "La Belle Province",
+        "brand:wikidata": "Q3206579",
+        "brand:wikipedia": "fr:La Belle Province (restaurant)",
+        "cuisine": "burger;sandwich",
+        "name": "La Belle Province",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772179,
+      "lat": 45.500269,
+      "lon": -73.568512,
+      "tags": {
+        "amenity": "bar",
+        "name": "Les Voyageurs",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772180,
+      "lat": 45.5000018,
+      "lon": -73.568571,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Le Montréalais Bistrot-bar",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772197,
+      "lat": 45.5024157,
+      "lon": -73.5671414,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Presse Cafe",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772204,
+      "lat": 45.5001955,
+      "lon": -73.5685737,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "The Beaver Club",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772209,
+      "lat": 45.504273,
+      "lon": -73.5651163,
+      "tags": {
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Copper Branch",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772214,
+      "lat": 45.5038181,
+      "lon": -73.5661463,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bistro Imagination"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772216,
+      "lat": 45.5014795,
+      "lon": -73.5673345,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2026-02-25",
+        "cuisine": "steak_house",
+        "name": "Vargas",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1302772219,
+      "lat": 45.5005301,
+      "lon": -73.5689733,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "5",
+        "addr:postcode": "H3B 2G2",
+        "addr:province": "Quebec",
+        "addr:street": "Place Ville Marie",
+        "amenity": "restaurant",
+        "branch": "Place Ville Marie",
+        "brand": "The Keg",
+        "brand:wikidata": "Q7744066",
+        "cuisine": "steak_house",
+        "indoor_seating": "yes",
+        "name": "The Keg",
+        "opening_hours": "Mo-We 10:00-24:00, Tu-Fr 11:00-01:00, Sa 16:00-01:00, Su 16:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-514-868-1999",
+        "website": "https://thekeg.com/en/locations/place-ville-marie",
+        "website:en": "https://thekeg.com/en/locations/place-ville-marie",
+        "website:fr": "https://thekeg.com/fr/restaurants/place-ville-marie",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307144657,
+      "lat": 45.5000465,
+      "lon": -73.5748464,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Café Java U"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307144708,
+      "lat": 45.500434,
+      "lon": -73.5740597,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "portuguese",
+        "name": "Ferreira Café",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307144733,
+      "lat": 45.5005449,
+      "lon": -73.5742751,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Alexandre",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307144790,
+      "lat": 45.5006273,
+      "lon": -73.5744358,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Café Vasco Da Gama",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307308156,
+      "lat": 45.5006024,
+      "lon": -73.5669497,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "check_date": "2026-04-29",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "http://www.mcdonalds.ca/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1450153382,
+      "lat": 45.4961952,
+      "lon": -73.5774565,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Cactus Wa Wa Tea House"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1546619357,
+      "lat": 45.4959534,
+      "lon": -73.5754558,
+      "tags": {
+        "addr:housenumber": "1224",
+        "addr:street": "Bishop",
+        "amenity": "restaurant",
+        "name": "Jay Bhavani"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1549087575,
+      "lat": 45.4988357,
+      "lon": -73.572815,
+      "tags": {
+        "addr:postcode": "H3B 2S7",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Buffet Ka Lo Hin",
+        "phone": "+1 514 871 8099"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558378068,
+      "lat": 45.5010019,
+      "lon": -73.5768406,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "indoor_seating": "yes",
+        "name": "Le Taj",
+        "outdoor_seating": "no",
+        "phone": "+1 514 845 9015",
+        "website": "https://www.restaurantletaj.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558670026,
+      "lat": 45.506939,
+      "lon": -73.5686383,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1508",
+        "addr:province": "QC",
+        "addr:street": "Rue De Bleury",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "brand:wikipedia": "en:Tim Hortons",
+        "check_date:opening_hours": "2025-10-21",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Tim Hortons",
+        "opening_hours:signed": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558680708,
+      "lat": 45.5052867,
+      "lon": -73.5714163,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Quiznos",
+        "brand:wikidata": "Q1936229",
+        "brand:wikipedia": "en:Quiznos",
+        "cuisine": "sandwich",
+        "name": "Quiznos",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1573497823,
+      "lat": 45.5095902,
+      "lon": -73.5710232,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "245",
+        "addr:postcode": "H2X 1X7",
+        "addr:province": "Québec",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "pub",
+        "email": "s@brasseriebenelux.com",
+        "microbrewery": "yes",
+        "name": "Benelux",
+        "opening_hours": "Sa-We 14:00-03:00; Th-Fr 11:00-03:00",
+        "phone": "+1 514 543 9750",
+        "website": "http://brasseriebenelux.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1576231839,
+      "lat": 45.5038391,
+      "lon": -73.5707653,
+      "tags": {
+        "addr:housenumber": "1333",
+        "addr:street": "Boulevard Robert-Bourassa",
+        "amenity": "cafe",
+        "check_date": "2026-06-13",
+        "check_date:opening_hours": "2026-06-13",
+        "cuisine": "coffee_shop;italian",
+        "name": "Café Olimpico",
+        "opening_hours": "Sa-Th 06:00-22:00; Fr 06:00-21:00",
+        "website": "https://cafeolimpico.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2175600497,
+      "lat": 45.5095207,
+      "lon": -73.5740723,
+      "tags": {
+        "addr:housenumber": "3506",
+        "addr:street": "Avenue du Parc",
+        "amenity": "cafe",
+        "name": "Chai The Lounge",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2175713420,
+      "lat": 45.5091955,
+      "lon": -73.5736977,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3498",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "QC",
+        "addr:street": "Avenue du Parc",
+        "addr:suburb": "Le Plateau-Mont-Royal",
+        "amenity": "cafe",
+        "check_date": "2026-09-11",
+        "internet_access": "wlan",
+        "name": "Saint Barth",
+        "outdoor_seating": "yes",
+        "population": "1",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2175716805,
+      "lat": 45.5100105,
+      "lon": -73.5751699,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Thaï Express",
+        "brand:wikidata": "Q7711610",
+        "cuisine": "thai",
+        "name": "Thaï Express",
+        "operator": "Groupe MTY",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "Accesible from the back"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2175719633,
+      "lat": 45.5092573,
+      "lon": -73.5734898,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Laon",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2295341281,
+      "lat": 45.4986281,
+      "lon": -73.573831,
+      "tags": {
+        "addr:housenumber": "1200",
+        "addr:postcode": "H3G 1V8",
+        "addr:street": "Rue Drummond",
+        "amenity": "bar",
+        "name": "Bar Downtown"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2428615909,
+      "lat": 45.5053865,
+      "lon": -73.5679601,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1408",
+        "addr:street": "Rue Saint-Alexandre",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q2818848",
+        "brand:wikipedia": "en:Quiznos",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2429722087,
+      "lat": 45.4971849,
+      "lon": -73.5808564,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1490",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "restaurant",
+        "name": "Sel Blir Steakhouse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2439184626,
+      "lat": 45.4963864,
+      "lon": -73.578432,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1460",
+        "addr:street": "Rue Mackay",
+        "amenity": "restaurant",
+        "diet:vegetarian": "yes",
+        "name": "Bei",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2501280962,
+      "lat": 45.5096628,
+      "lon": -73.5737108,
+      "tags": {
+        "addr:housenumber": "3501",
+        "addr:postcode": "H2X 2H8",
+        "addr:province": "QC",
+        "addr:street": "Avenue du Parc",
+        "addr:suburb": "Le Plateau-Mont-Royal",
+        "amenity": "fast_food",
+        "check_date": "2025-09-16",
+        "check_date:opening_hours": "2025-09-16",
+        "cuisine": "bagel",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Le Fabrique de Bagel",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa,Su 09:00-17:00",
+        "phone": "+1 514 844 1101",
+        "website": "https://www.pressecafe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2671487831,
+      "lat": 45.4977438,
+      "lon": -73.5765184,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "name": "Sushi Crescent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2689226792,
+      "lat": 45.4983029,
+      "lon": -73.5774965,
+      "tags": {
+        "addr:housenumber": "1337",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "pub",
+        "name": "London Pub",
+        "outdoor_seating": "seasonal",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2693806148,
+      "lat": 45.4996521,
+      "lon": -73.5730349,
+      "tags": {
+        "addr:housenumber": "1116",
+        "addr:postcode": "H3B 1H4",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "contact:phone": "+1-514-866-1029",
+        "cuisine": "meat",
+        "indoor_seating": "yes",
+        "name": "Reuben's Deli & Steaks",
+        "opening_hours": "Tu,We,Sa,Su 11:30-22:00; Th,Fr 11:30-22:30",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2700650351,
+      "lat": 45.4976105,
+      "lon": -73.5769484,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "cuisine": "indian",
+        "entrance": "yes",
+        "name": "Devi",
+        "phone": "+1-514-286-0303",
+        "website": "https://devimontreal.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3142727651,
+      "lat": 45.4977937,
+      "lon": -73.5803124,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1448",
+        "addr:postcode": "H3G 1K4",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Cafe Aunja",
+        "opening_hours": "10:00-22:00",
+        "smoking": "outside",
+        "step_count": "3",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3344755684,
+      "lat": 45.4978734,
+      "lon": -73.5787978,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2055",
+        "addr:postcode": "H3G 2E9",
+        "addr:province": "QC",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "name": "Mala Express",
+        "step_count": "8",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3370726297,
+      "lat": 45.4987402,
+      "lon": -73.5771409,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1313",
+        "addr:street": "De Maisonneuve West",
+        "amenity": "restaurant",
+        "cuisine": "breakfast",
+        "name": "Eggspectation",
+        "opening_hours": "Mo-Su 06:00-17:00",
+        "outdoor_seating": "seasonal",
+        "phone": "+1 514-842-3447",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812097909,
+      "lat": 45.5084949,
+      "lon": -73.5718897,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3418B",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "cafe",
+        "check_date": "2025-08-25",
+        "internet_access": "wlan",
+        "name": "Mintar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812097910,
+      "lat": 45.5085397,
+      "lon": -73.5720223,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3424",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "restaurant",
+        "name": "Pullman Bar à Vin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812097916,
+      "lat": 45.5089786,
+      "lon": -73.5729364,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3460A",
+        "addr:postcode": "H2X 2H6",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "restaurant",
+        "cuisine": "asian;japanese",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Resto Chillax",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812097917,
+      "lat": 45.5092442,
+      "lon": -73.5727432,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3460A",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;pasta;pizza",
+        "name": "Alto Restaurant",
+        "opening_hours": "Su-Th 11:00-16:00; Fr,Sa 11:00-17:00",
+        "website": "https://altorestaurant.ca",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3992688333,
+      "lat": 45.4966326,
+      "lon": -73.5790198,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2002",
+        "addr:postcode": "H3G 2J1",
+        "addr:province": "Quebec",
+        "addr:street": "Rue Mackay",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2024-07-27",
+        "cuisine": "coffee;sandwich;bagel",
+        "internet_access": "yes",
+        "name": "Hinnawi Bros Bagel & Café",
+        "opening_hours:signed": "no",
+        "smoking": "no",
+        "step_count": "10",
+        "website": "http://www.hinnawibrosbagelandcafe.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059079061,
+      "lat": 45.496838,
+      "lon": -73.5766199,
+      "tags": {
+        "addr:housenumber": "1407",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "designation": "Cuisine italienne traditionnelle",
+        "name": "Ferrari Restaurant - Café",
+        "website": "https://restoferrari.ca/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059079062,
+      "lat": 45.4970119,
+      "lon": -73.5769592,
+      "tags": {
+        "addr:housenumber": "1421",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Man-na",
+        "ramp": "no",
+        "step_count": "10",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059085456,
+      "lat": 45.4971162,
+      "lon": -73.5771979,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1431",
+        "addr:postcode": "H3G 2E4",
+        "addr:province": "Québec",
+        "addr:street": "Rue bishop",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Th 10:30-23:00, Fr-Su 10:30-24:00",
+        "phone": "+15142826463",
+        "step_count": "8",
+        "website": "https://www.pizzahut.ca/huts/ca-1/R34601/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059093098,
+      "lat": 45.4970805,
+      "lon": -73.5771,
+      "tags": {
+        "addr:housenumber": "1429a",
+        "addr:street": "Rue Bishop",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Kafein café-bar",
+        "name:ko": "몬트리올숙소",
+        "ramp": "no",
+        "step_count": "9",
+        "website": "https://www.kafein.ca/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059093099,
+      "lat": 45.497056,
+      "lon": -73.5770222,
+      "tags": {
+        "addr:housenumber": "1425",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Messa 14",
+        "ramp": "no",
+        "step_count": "11",
+        "website": "http://www.mesa14.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059100816,
+      "lat": 45.4975759,
+      "lon": -73.5781353,
+      "tags": {
+        "addr:housenumber": "2005",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Maison Chaïshaï",
+        "step_count": "0",
+        "website": "http://www.ordercharcos.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059117065,
+      "lat": 45.4976883,
+      "lon": -73.5804339,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2024-06-14",
+        "name": "Maison Inja - Cuisine Perse",
+        "opening_hours:signed": "no",
+        "step_count": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059117504,
+      "lat": 45.4973891,
+      "lon": -73.5792923,
+      "tags": {
+        "amenity": "cafe",
+        "contact:instagram": "hivecafecoop",
+        "description": "Solidarity co-op",
+        "diet:gluten_free": "yes",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "level": "1",
+        "name": "Hive Café",
+        "opening_hours": "Sep-Apr: Mo-Th 08:15-18:00; Sep-Apr: Fr 08:15-17:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059129989,
+      "lat": 45.4960474,
+      "lon": -73.5776941,
+      "tags": {
+        "amenity": "cafe",
+        "designation": "Tea house",
+        "name": "Qabane À Thé",
+        "website": "http://qabane.ca/en/home",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059158304,
+      "lat": 45.4962156,
+      "lon": -73.5775452,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Mei",
+        "step_count": "9",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059158305,
+      "lat": 45.4960239,
+      "lon": -73.578854,
+      "tags": {
+        "addr:housenumber": "1540",
+        "addr:postcode": "H3G 1N1",
+        "addr:province": "QC",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q2818848",
+        "brand:wikipedia": "en:A&W (Canada)",
+        "cuisine": "burger",
+        "name": "A&W",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4059163967,
+      "lat": 45.4963591,
+      "lon": -73.5815133,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Cuisine Szechuan",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4060351795,
+      "lat": 45.4962984,
+      "lon": -73.58133,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mediterranean",
+        "name": "Restaurant Traditions",
+        "step_count": "4",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4060358153,
+      "lat": 45.4962533,
+      "lon": -73.5811803,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mongolian_grill",
+        "name": "Egina",
+        "opening_hours": "We-Su 17:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4189722913,
+      "lat": 45.5017538,
+      "lon": -73.5666218,
+      "tags": {
+        "addr:housenumber": "630",
+        "addr:street": "Boulevard René-Lévesque Ouest",
+        "amenity": "cafe",
+        "brand": "Café Dépôt",
+        "brand:wikidata": "Q64924449",
+        "cuisine": "coffee_shop;cake;bagel;bistro",
+        "internet_access": "wlan",
+        "name": "Café Dépôt",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4293346090,
+      "lat": 45.504619,
+      "lon": -73.5704628,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4349778993,
+      "lat": 45.5092771,
+      "lon": -73.5707818,
+      "tags": {
+        "addr:housenumber": "250",
+        "addr:postcode": "H2X 1X9",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "name": "Les Moulins La Fayette",
+        "website": "https://lesmoulinslafayette.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4354761089,
+      "lat": 45.4961676,
+      "lon": -73.5800322,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Comptoir du chef"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4355523596,
+      "lat": 45.496553,
+      "lon": -73.5727336,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Siam"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4402893843,
+      "lat": 45.4999382,
+      "lon": -73.5723732,
+      "tags": {
+        "addr:housenumber": "1257",
+        "addr:postcode": "H3B 5L4",
+        "addr:street": "Rue Peel",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "brand:wikipedia": "en:Tim Hortons",
+        "check_date": "2026-08-12",
+        "check_date:opening_hours": "2026-08-12",
+        "contact:facebook": "TimHortons",
+        "contact:instagram": "timhortons",
+        "contact:twitter": "TimHortons",
+        "cuisine": "breakfast;coffee_shop;donut",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-Fr 05:00-23:00; Sa-Su 06:00-23:00",
+        "phone": "+1-514-392-7757",
+        "takeaway": "yes",
+        "website": "https://www.timhortons.ca/store-locator/store/restaurant_70157",
+        "website:menu": "https://www.timhortons.ca/menu",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4478407750,
+      "lat": 45.5069259,
+      "lon": -73.5661878,
+      "tags": {
+        "alt_name": "DQ",
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "brand:wikipedia": "en:Dairy Queen",
+        "check_date": "2025-07-24",
+        "cuisine": "ice_cream;burger;chicken",
+        "drive_through": "no",
+        "name": "Dairy Queen",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4478407764,
+      "lat": 45.5018945,
+      "lon": -73.5743243,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4479408304,
+      "lat": 45.5028278,
+      "lon": -73.5743022,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "University Club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483141789,
+      "lat": 45.5031189,
+      "lon": -73.5740712,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2200",
+        "addr:postcode": "H3A 3P8",
+        "addr:province": "QC",
+        "addr:street": "Avenue McGill College",
+        "amenity": "cafe",
+        "brand": "Second Cup",
+        "brand:wikidata": "Q862180",
+        "brand:wikipedia": "en:Second Cup",
+        "cuisine": "coffee_shop",
+        "name": "Second Cup",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4484306192,
+      "lat": 45.5058243,
+      "lon": -73.5692808,
+      "tags": {
+        "addr:housenumber": "433",
+        "addr:postcode": "H3A 1N9",
+        "addr:street": "Rue Mayor",
+        "amenity": "cafe",
+        "name": "Café Parvis",
+        "name:fr": "Café Parvis",
+        "opening_hours": "Tu-Sa 11:00-23:00; Mo, Su 11:00-22:00",
+        "phone": "+15147643589",
+        "website": "https://www.cafeparvis.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4576713196,
+      "lat": 45.4989618,
+      "lon": -73.5730732,
+      "tags": {
+        "addr:postcode": "H3B 2S7",
+        "amenity": "nightclub",
+        "name": "Chez Paree",
+        "name:en": "Chez Parée",
+        "name:fr": "Chez Parée",
+        "opening_hours": "Mo-Su 15:00-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4664652690,
+      "lat": 45.4980036,
+      "lon": -73.5771059,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1465",
+        "addr:postcode": "H3G 2B2",
+        "addr:province": "Québec",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "door": "revolving",
+        "entrance": "yes",
+        "name": "Burger bar crescent",
+        "name:fr": "Burger bar crescent",
+        "phone": "+1-514-903-5575",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4677007193,
+      "lat": 45.5049927,
+      "lon": -73.5686378,
+      "tags": {
+        "addr:housenumber": "1434",
+        "addr:street": "Rue City-Councillors",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Biiru",
+        "name:en": "Biiru",
+        "website": "https://biiru.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4688800545,
+      "lat": 45.5001603,
+      "lon": -73.5678008,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Second Cup",
+        "brand:wikidata": "Q862180",
+        "brand:wikipedia": "en:Second Cup",
+        "cuisine": "coffee_shop",
+        "name": "Second Cup",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708749062,
+      "lat": 45.498036,
+      "lon": -73.5771636,
+      "tags": {
+        "amenity": "nightclub",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "Copacabana",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708763051,
+      "lat": 45.4977637,
+      "lon": -73.577163,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "L'Atelier d'Argentine",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708763052,
+      "lat": 45.497794,
+      "lon": -73.5772232,
+      "tags": {
+        "amenity": "nightclub",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "xo",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708772405,
+      "lat": 45.4982954,
+      "lon": -73.5756479,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "entrance": "yes",
+        "name": "Yama"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708772406,
+      "lat": 45.4985799,
+      "lon": -73.5767627,
+      "tags": {
+        "amenity": "nightclub",
+        "automatic_door": "no",
+        "name": "Club Wanda's",
+        "opening_hours": "Tu-Sa 20:00-03:00; Su,Mo off",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4711825201,
+      "lat": 45.4969101,
+      "lon": -73.575397,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "door": "yes_hinges",
+        "name": "indian_food-1242",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4711842578,
+      "lat": 45.4963879,
+      "lon": -73.5737708,
+      "tags": {
+        "addr:housenumber": "1175",
+        "addr:street": "Rue Crescent",
+        "amenity": "cafe",
+        "automatic_door": "no",
+        "door": "hinged",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "cafe-1175",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4711842579,
+      "lat": 45.4965203,
+      "lon": -73.5740783,
+      "tags": {
+        "amenity": "bar",
+        "automatic_door": "no",
+        "door": "yes_hinges",
+        "name": "nuevo - 1195",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4711843814,
+      "lat": 45.4969078,
+      "lon": -73.5749645,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "contact:phone": "+1 514 866 3226",
+        "cuisine": "italian",
+        "door": "hinged",
+        "name": "Trattoria Trestevere",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4711851564,
+      "lat": 45.4977746,
+      "lon": -73.5745967,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "no",
+        "door": "hinged",
+        "entrance": "yes",
+        "name": "Pizza Chez Danny",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4777157732,
+      "lat": 45.49954,
+      "lon": -73.572379,
+      "tags": {
+        "addr:housenumber": "1220",
+        "addr:street": "Rue Peel",
+        "amenity": "pub",
+        "name": "Salsathèque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4806218816,
+      "lat": 45.5077184,
+      "lon": -73.5652502,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "La Cage",
+        "brand:wikidata": "Q3206980",
+        "brand:wikipedia": "fr:La Cage aux Sports",
+        "cuisine": "burger;chicken;sandwich;fish;pasta",
+        "level": "0",
+        "name": "La Cage"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4852895223,
+      "lat": 45.5016077,
+      "lon": -73.5696815,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "H3B 2E3",
+        "addr:street": "Esplanade Place Ville Marie",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2026-08-16",
+        "check_date:opening_hours": "2026-08-16",
+        "contact:facebook": "jesuisunenfantterrible",
+        "contact:instagram": "jesuisunenfantterrible_",
+        "cuisine": "french;seafood",
+        "name": "Les Enfants Terribles",
+        "name:en": "Les Enfants terribles",
+        "name:fr": "Les Enfants terribles",
+        "opening_hours": "Mo-We 11:30-22:00; Th-Fr 11:30-22:30; Sa 10:00-22:30; Su 10:00-22:00",
+        "phone": "+1-514-544-8884",
+        "website": "https://www.jesuisunenfantterrible.com/place-ville-marie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869938919,
+      "lat": 45.5049869,
+      "lon": -73.5731795,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "666",
+        "addr:postcode": "H3A 0B2",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "brand:wikipedia": "en:Tim Hortons",
+        "cuisine": "coffee_shop",
+        "delivery": "no",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "05:00-26:00",
+        "outdoor_seating": "no",
+        "phone": "+1 514 286 0404",
+        "takeaway": "yes",
+        "website": "https://www.timhortons.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4909245191,
+      "lat": 45.5060286,
+      "lon": -73.5666351,
+      "tags": {
+        "addr:housenumber": "1250",
+        "addr:street": "Rue De Bleury",
+        "amenity": "restaurant",
+        "name": "Nyk's Bistro Pub",
+        "phone": "+1-514-866-1787",
+        "website": "https://nyks.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4912902408,
+      "lat": 45.5067868,
+      "lon": -73.566322,
+      "tags": {
+        "addr:housenumber": "288",
+        "addr:postcode": "H2X",
+        "addr:street": "Saint Catherine Ouest",
+        "amenity": "restaurant",
+        "check_date": "2026-08-14",
+        "cuisine": "sushi",
+        "diet:vegan": "only",
+        "name": "Bloom Sushi",
+        "opening_hours": "Mo 17:00-21:00; Tu-We 11:30-14:30,17:00-21:00; Th 11:30-14:30,17:00-21:30; Fr-Sa 17:00-22:00; Su 17:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+15143701261",
+        "takeaway": "yes",
+        "website": "https://bloomsushi.com/fr/restaurants/bloom-sushi-quartier-des-spectacles/",
+        "website:menu": "https://bloomsushi.com/fr/restaurants/bloom-sushi-quartier-des-spectacles/menu/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5023344625,
+      "lat": 45.5018145,
+      "lon": -73.5708484,
+      "tags": {
+        "addr:housenumber": "1253",
+        "addr:street": "Avenue McGill College",
+        "amenity": "cafe",
+        "name": "Tunnel espresso bar - RESO",
+        "name:fr": "Tunnel espresso bar - RESO",
+        "opening_hours": "Fr,Sa 11:30-21:00; Su 11:30-18:00; Mo-Th 11:30-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5030594029,
+      "lat": 45.505047,
+      "lon": -73.5716019,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2045",
+        "addr:postcode": "H3A 2C1",
+        "addr:province": "QC",
+        "addr:street": "Avenue Union",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi Inbox",
+        "opening_hours": "Tu-Fr,Su 11:00-24:00, Sa 12:00-24:00; Mo off",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5063466817,
+      "lat": 45.4976209,
+      "lon": -73.577674,
+      "tags": {
+        "addr:housenumber": "1388",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "fast_food",
+        "contact:phone": "+1 514 286 0110",
+        "cuisine": "burger",
+        "name": "Notre-Boeuf-de-Grâce",
+        "opening_hours": "Mo-We 11:00-23:00; Th,Fr 11:00-24:00; Sa 10:00-24:00; Su 10:00-22:00",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5162246330,
+      "lat": 45.4960673,
+      "lon": -73.575695,
+      "tags": {
+        "addr:housenumber": "1242",
+        "addr:street": "Rue Bishop",
+        "amenity": "bar",
+        "name": "Grumpy's",
+        "website": "https://www.grumpysbar.ca/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5163996921,
+      "lat": 45.4962086,
+      "lon": -73.5752745,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1245",
+        "addr:postcode": "H3G 2E2",
+        "addr:province": "Québec",
+        "addr:street": "Rue Bishop",
+        "amenity": "fast_food",
+        "name": "Galerie d'Okeya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167536372,
+      "lat": 45.4981059,
+      "lon": -73.5734504,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "breakfast",
+        "name": "Chez Cora",
+        "website": "https://www.chezcora.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5262581150,
+      "lat": 45.5058485,
+      "lon": -73.5732807,
+      "tags": {
+        "amenity": "theatre",
+        "check_date": "2026-10-03",
+        "name": "Clara Lichtenstein Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304916923,
+      "lat": 45.5058389,
+      "lon": -73.57703,
+      "tags": {
+        "amenity": "theatre",
+        "name": "James Square",
+        "operator": "McGill University"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633000,
+      "lat": 45.5006968,
+      "lon": -73.5672773,
+      "tags": {
+        "addr:housenumber": "895",
+        "addr:postcode": "H3B 2M4",
+        "addr:street": "Rue de La Gauchetière Ouest",
+        "amenity": "restaurant",
+        "check_date": "2026-04-29",
+        "cuisine": "american",
+        "name": "Deli Planet",
+        "opening_hours": "Mo-We 07:00-21:00; Th-Sa 07:00-01:00; Su 07:00-20:00",
+        "phone": "+1 514-861-2221",
+        "website": "https://www.deliplanet.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633001,
+      "lat": 45.5004403,
+      "lon": -73.5676004,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Trattoria Mangione"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633002,
+      "lat": 45.5005487,
+      "lon": -73.5675196,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tiki Ming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633007,
+      "lat": 45.5006439,
+      "lon": -73.5674497,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Creation Chop Crazy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633010,
+      "lat": 45.5006829,
+      "lon": -73.567422,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Souvlaki Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633012,
+      "lat": 45.5008292,
+      "lon": -73.5672768,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Vie et Nam"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5362633015,
+      "lat": 45.5002589,
+      "lon": -73.5677406,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "KimChi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5363757722,
+      "lat": 45.4984973,
+      "lon": -73.5720624,
+      "tags": {
+        "addr:street": "Rue Stanley",
+        "amenity": "cafe",
+        "name": "Melk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5403675224,
+      "lat": 45.4974543,
+      "lon": -73.5801261,
+      "tags": {
+        "addr:housenumber": "2159",
+        "addr:street": "Rue Mackay",
+        "amenity": "restaurant",
+        "check_date": "2024-08-19",
+        "cuisine": "japanese",
+        "name": "Schlouppe Bistrot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5408074121,
+      "lat": 45.4963196,
+      "lon": -73.5813992,
+      "tags": {
+        "addr:housenumber": "2340",
+        "addr:street": "Rue Guy",
+        "amenity": "restaurant",
+        "cuisine": "pakistani",
+        "name": "Chai Paratha"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5491265323,
+      "lat": 45.4986877,
+      "lon": -73.5783841,
+      "tags": {
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "name": "Le Poké Bar",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5570882822,
+      "lat": 45.5029772,
+      "lon": -73.5679271,
+      "tags": {
+        "amenity": "restaurant",
+        "cocktails": "yes",
+        "cuisine": "mexican",
+        "name": "Escondite",
+        "website": "https://escondite.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5809163554,
+      "lat": 45.4990351,
+      "lon": -73.5771587,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2051",
+        "addr:postcode": "H3G 1Z8",
+        "addr:street": "Rue de la Montagne",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "diet:vegan": "only",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Ütea",
+        "opening_hours": "24/7",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.instagram.com/utea.mtl/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5861064128,
+      "lat": 45.5018131,
+      "lon": -73.5703964,
+      "tags": {
+        "addr:housenumber": "1251",
+        "addr:postcode": "H3B 2Y4",
+        "addr:street": "Avenue McGill College",
+        "amenity": "restaurant",
+        "name": "Monza",
+        "opening_hours": "Mo-Fr 11:00-22:00, Sa-Su 12:00-23:00",
+        "phone": "+1 514-878-3400",
+        "website": "https://restaurantmonza.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5919155489,
+      "lat": 45.5088401,
+      "lon": -73.5781434,
+      "tags": {
+        "addr:housenumber": "3625",
+        "addr:street": "Rue Aylmer",
+        "amenity": "cafe",
+        "name": "The Yellow Door"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5972480285,
+      "lat": 45.5120071,
+      "lon": -73.5702406,
+      "tags": {
+        "addr:housenumber": "51",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "changing_table": "no",
+        "name": "Café Osmo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5994564585,
+      "lat": 45.5034006,
+      "lon": -73.5747434,
+      "tags": {
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "name": "Humble Lion",
+        "opening_hours": "Mo-Su 11:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6001276288,
+      "lat": 45.5045261,
+      "lon": -73.568703,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "537",
+        "addr:postcode": "H3B 1B2",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "name": "SushiUma"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6012922890,
+      "lat": 45.4999813,
+      "lon": -73.5773148,
+      "tags": {
+        "amenity": "restaurant",
+        "automatic_door": "yes",
+        "entrance": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6012968353,
+      "lat": 45.5001066,
+      "lon": -73.578759,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1245",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "cafe",
+        "name": "Presse Cafe",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6012982687,
+      "lat": 45.4993416,
+      "lon": -73.5765657,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Poke Monster",
+        "opening_hours": "Su-Th 10:00-15:00; Fr,Sa 10:00-17:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6025479776,
+      "lat": 45.4999652,
+      "lon": -73.5752444,
+      "tags": {
+        "addr:housenumber": "1490",
+        "addr:postcode": "H3A 1P7",
+        "addr:street": "Rue Stanley",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "email": "downtown@firegrill.com",
+        "name": "Firegrill",
+        "opening_hours": "Mo 11:30-22:00; Tu-Fr 11:30-23:00; Sa 12:00-23:00; Su 15:00-22:00",
+        "phone": "+1-514-842-0020",
+        "website": "https://firegrill.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6025526789,
+      "lat": 45.499589,
+      "lon": -73.5744203,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Brigade",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6025537730,
+      "lat": 45.4997145,
+      "lon": -73.5741441,
+      "tags": {
+        "amenity": "bar",
+        "name": "DeVille",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6026247736,
+      "lat": 45.4987375,
+      "lon": -73.5747792,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "JoEs Pa Ni Ni",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6026247751,
+      "lat": 45.4979281,
+      "lon": -73.5731108,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian;pizza",
+        "name": "La Medusa",
+        "website": "https://www.lamedusa.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6034609118,
+      "lat": 45.5006597,
+      "lon": -73.5745072,
+      "tags": {
+        "addr:housenumber": "1474",
+        "addr:street": "Rue Peel",
+        "amenity": "restaurant",
+        "name": "Ryu",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6040457386,
+      "lat": 45.4960973,
+      "lon": -73.5757537,
+      "tags": {
+        "addr:housenumber": "1242",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "name": "Le Ninja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6086868785,
+      "lat": 45.5058762,
+      "lon": -73.5671021,
+      "tags": {
+        "addr:housenumber": "368",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Raviolis Impression"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6086868885,
+      "lat": 45.4959972,
+      "lon": -73.5765474,
+      "tags": {
+        "addr:housenumber": "1442",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "cafe",
+        "check_date": "2023-09-09",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Brûleries Faro",
+        "outdoor_seating": "sidewalk",
+        "website": "https://farocoffee.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6190146386,
+      "lat": 45.4991656,
+      "lon": -73.5758108,
+      "tags": {
+        "addr:housenumber": "1440",
+        "addr:street": "Rue Drummond",
+        "amenity": "bar",
+        "name": "Bar George"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6197988085,
+      "lat": 45.4975597,
+      "lon": -73.5776958,
+      "tags": {
+        "addr:housenumber": "1390",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "fast_food",
+        "check_date:opening_hours": "2025-11-06",
+        "contact:phone": "+1 514 474 4264",
+        "cuisine": "pizza",
+        "name": "Hang Time",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6334252086,
+      "lat": 45.5085226,
+      "lon": -73.5663031,
+      "tags": {
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "cafe",
+        "name": "Van Houtte"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6340817972,
+      "lat": 45.500402,
+      "lon": -73.5755283,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "brand:wikipedia": "en:Tim Hortons",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Tim Hortons",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6348619585,
+      "lat": 45.509173,
+      "lon": -73.5706716,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "250",
+        "addr:postcode": "H2X 1X9",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "fast_food",
+        "cuisine": "hawaiian",
+        "name": "Olu Olu Poké",
+        "phone": "+1 438 771 5770",
+        "was:amenity": "cafe",
+        "was:name": "Zenoli",
+        "website": "https://oluolupoke.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6368206285,
+      "lat": 45.5018661,
+      "lon": -73.5707374,
+      "tags": {
+        "addr:housenumber": "1253",
+        "addr:street": "Avenue McGill College",
+        "amenity": "cafe",
+        "name": "Hestia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6389316686,
+      "lat": 45.4982572,
+      "lon": -73.5782589,
+      "tags": {
+        "addr:housenumber": "2110",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "name": "Burrito Borracho"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6397196786,
+      "lat": 45.5018094,
+      "lon": -73.5769811,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1115",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Opiano",
+        "opening_hours": "Mo-Fr 11:30-20:00",
+        "phone": "+14383333335",
+        "website": "https://opianomtl.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6401309385,
+      "lat": 45.5059222,
+      "lon": -73.5674658,
+      "tags": {
+        "addr:housenumber": "375",
+        "addr:postcode": "H3B 1A4",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "brand:wikipedia": "en:Krispy Kreme",
+        "contact:facebook": "KrispyKremeCanada",
+        "contact:instagram": "krispykremecan",
+        "contact:twitter": "krispykremecan",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Sa 07:00-21:30; Su 08:00-21:00",
+        "phone": "+1-514-303-0355",
+        "takeaway": "yes",
+        "website": "https://krispykreme.ca/",
+        "website:menu": "https://krispykreme.ca/our-menu/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6465687990,
+      "lat": 45.4959969,
+      "lon": -73.5771175,
+      "tags": {
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "cafe",
+        "name": "Humans"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6703902090,
+      "lat": 45.498385,
+      "lon": -73.5778875,
+      "tags": {
+        "addr:housenumber": "2067",
+        "addr:postcode": "H3G2C1",
+        "addr:street": "Rue Crescent",
+        "amenity": "fast_food",
+        "contact:facebook": "mandyssalads",
+        "contact:instagram": "mandysalads",
+        "name": "Mandy’s Salades Gourmandes",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+15144190779",
+        "website": "https://mandys.ca/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6732094290,
+      "lat": 45.5104122,
+      "lon": -73.5726866,
+      "tags": {
+        "addr:housenumber": "224",
+        "addr:street": "Milton Street",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "asian",
+        "name": "Mae Sri Thai",
+        "opening_hours": "Mo-Su 11:30-14:30, 17:00-23:00",
+        "phone": "+1-514-543-5711",
+        "website": "https://www.maesrithai.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6814452885,
+      "lat": 45.50676,
+      "lon": -73.566784,
+      "tags": {
+        "addr:housenumber": "305",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7039660870,
+      "lat": 45.5066931,
+      "lon": -73.5759841,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian;chinese",
+        "name": "Cafétéria La Mosaïque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7081433185,
+      "lat": 45.4976121,
+      "lon": -73.5799516,
+      "tags": {
+        "addr:street": "Rue Mackay",
+        "amenity": "cafe",
+        "name": "Nakamichi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7221421466,
+      "lat": 45.5038869,
+      "lon": -73.5874432,
+      "tags": {
+        "addr:unit": "RC-10",
+        "air_conditioning": "no",
+        "amenity": "cafe",
+        "check_date": "2026-08-07",
+        "check_date:opening_hours": "2026-08-07",
+        "cuisine": "cake;coffee_shop",
+        "name": "Café des amis du belvédère",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "bakery",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7265058699,
+      "lat": 45.5047956,
+      "lon": -73.5727277,
+      "tags": {
+        "addr:city": "Montreal",
+        "addr:housenumber": "2077",
+        "addr:postcode": "H3A2M3",
+        "addr:province": "QC",
+        "addr:street": "Boulevard Robert-Bourassa",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "asian;fusion;taiwanese;bubble_tea;tea",
+        "delivery": "yes",
+        "email": "lemajesthe@gmail.com",
+        "internet_access": "wlan",
+        "name": "LeMajesthé",
+        "phone": "+1-514-840-5128",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "website": "https://www.lemajesthe.ca"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296748685,
+      "lat": 45.4974372,
+      "lon": -73.5759339,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Yaourti"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8025526254,
+      "lat": 45.5070592,
+      "lon": -73.5681551,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1501",
+        "addr:street": "Rue De Bleury",
+        "amenity": "cinema",
+        "name": "ONF Office National du Film du Canada"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8032816993,
+      "lat": 45.500765,
+      "lon": -73.5687892,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "5",
+        "addr:postcode": "H3B 2G2",
+        "addr:province": "QC",
+        "addr:street": "Place Ville-Marie",
+        "addr:unit": "Local 11296",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "contact:phone": "+1-514-868-0632",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8354577775,
+      "lat": 45.4977411,
+      "lon": -73.5743941,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1233",
+        "addr:postcode": "h3g1z2",
+        "addr:province": "Quebec",
+        "addr:street": "Rue de la Montagne",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "japanese;sushi",
+        "diet:dairy_free": "yes",
+        "diet:healthy": "yes",
+        "diet:meat": "yes",
+        "diet:organic": "yes",
+        "diet:pescetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Hidden Fish",
+        "opening_hours": "Mo-Fr 17:00-22:00",
+        "phone": "+1-514-419-1319",
+        "website": "https://www.sushihiddenfish.ca/sushi/home/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8557121967,
+      "lat": 45.4958917,
+      "lon": -73.5788575,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1550",
+        "addr:postcode": "H3G 1N2",
+        "addr:province": "Québec",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "cafe",
+        "cuisine": "pastry;boba",
+        "diet:gluten_free": "no",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "level": "-2",
+        "name": "Patisserie Cocobun - Guy-Concordia",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:30-19:00; Su 10:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-514-935-1688",
+        "website": "https://www.cocobun.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8703083762,
+      "lat": 45.501139,
+      "lon": -73.5708379,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1215",
+        "addr:postcode": "H3B 4G8",
+        "addr:province": "QC",
+        "addr:street": "Rue Mansfield",
+        "amenity": "restaurant",
+        "cuisine": "breakfast",
+        "delivery": "yes",
+        "name": "Ben & Florentine",
+        "opening_hours": "Mo-Su 07:00-15:00",
+        "phone": "+1 514 395-0222",
+        "takeaway": "yes",
+        "website": "https://benetflorentine.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9153134864,
+      "lat": 45.5059592,
+      "lon": -73.5763052,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee;pastry",
+        "name": "Dispatch Coffee",
+        "opening_hours:covid19": "Mo-Fr 08:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9153134871,
+      "lat": 45.5045822,
+      "lon": -73.5761958,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "hot_dog",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Hot Dog Guy",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246869936,
+      "lat": 45.4999797,
+      "lon": -73.5753819,
+      "tags": {
+        "addr:housenumber": "1180",
+        "addr:province": "QC",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "restaurant",
+        "check_date": "2026-06-08",
+        "check_date:opening_hours": "2026-06-08",
+        "cuisine": "american",
+        "diet:vegan": "only",
+        "internet_access": "wlan",
+        "name": "Copper Branch",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-18:00",
+        "outdoor_seating": "no",
+        "phone": "+1-514-400-1284",
+        "self_service": "no",
+        "website": "https://eatcopperbranch.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9251590541,
+      "lat": 45.5068833,
+      "lon": -73.5662455,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "diet:vegan": "only",
+        "indoor_seating": "yes",
+        "name": "Lola Rosa",
+        "outdoor_seating": "pedestrian_zone",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 514-543-0613",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://lolarosa.ca/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9689067517,
+      "lat": 45.4970806,
+      "lon": -73.5771329,
+      "tags": {
+        "addr:housenumber": "1429 A",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "name": "OFish Bishop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9693250017,
+      "lat": 45.4959663,
+      "lon": -73.5775829,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Matcha Zanmai"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9953920195,
+      "lat": 45.5090229,
+      "lon": -73.5723827,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q2818848",
+        "cuisine": "burger",
+        "name": "A&W",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10017478082,
+      "lat": 45.4963657,
+      "lon": -73.5737384,
+      "tags": {
+        "addr:housenumber": "1175A",
+        "addr:street": "Rue Crescent",
+        "alt_name": "Restaurant Sana",
+        "amenity": "restaurant",
+        "cuisine": "pakistani;indian;bangladeshi",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "-1",
+        "name": "Sana",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10220004216,
+      "lat": 45.5014958,
+      "lon": -73.5755235,
+      "tags": {
+        "addr:housenumber": "2055",
+        "addr:street": "Rue Peel",
+        "amenity": "restaurant",
+        "check_date": "2022-11-26",
+        "name": "Universel Déjeuners et Grillades"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10221376913,
+      "lat": 45.5020946,
+      "lon": -73.5765254,
+      "tags": {
+        "amenity": "cafe",
+        "check_date": "2026-08-07",
+        "name": "Café Castel",
+        "opening_hours": "Mo-Su 07:00-20:00 open \"Café & resto-bar\" || Mo-Su 07:00-23:00 open \"Resto-bar\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 10681843542,
+      "lat": 45.4980056,
+      "lon": -73.5732256,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1224",
+        "addr:province": "Québec",
+        "addr:street": "Rue Drummond",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Escondite"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10719476606,
+      "lat": 45.4978354,
+      "lon": -73.5785398,
+      "tags": {
+        "addr:housenumber": "2065A",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "check_date": "2026-01-21",
+        "check_date:diet:gluten_free": "2026-01-21",
+        "check_date:diet:halal": "2026-01-21",
+        "check_date:diet:kosher": "2026-01-21",
+        "check_date:diet:vegan": "2026-01-21",
+        "check_date:diet:vegetarian": "2026-01-21",
+        "check_date:opening_hours": "2026-01-21",
+        "cuisine": "ramen",
+        "diet:gluten_free": "yes",
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Misoya",
+        "opening_hours": "Mo-Su 11:30-21:30",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-514-373-4888",
+        "website": "https://ramenmisoya.ca",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10911943562,
+      "lat": 45.4962498,
+      "lon": -73.5787705,
+      "tags": {
+        "addr:postcode": "H3G 1N1",
+        "addr:street": "Boulevard de Maisonneuve Ouest",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "diet:halal": "only",
+        "diet:vegetarian": "no",
+        "level": "0",
+        "name": "Chef Istanbul",
+        "opening_hours": "Su-Th 11:00-23:00, Fr,Sa 11:00-24:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10951367944,
+      "lat": 45.4974945,
+      "lon": -73.5777703,
+      "tags": {
+        "addr:housenumber": "1392",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-11-06",
+        "contact:phone": "+1 514 447 9570",
+        "name": "Pigeon",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11004591762,
+      "lat": 45.5028698,
+      "lon": -73.5699097,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "680",
+        "addr:postcode": "H3B 1C2",
+        "addr:province": "Québec",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "bar",
+        "email": "piranhabarbooking@gmail.com",
+        "name": "Piranha Bar",
+        "opening_hours": "Mo-Su 08:00-03:00",
+        "phone": "+1 514 508 2116",
+        "website": "https://www.piranhabar.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11011981782,
+      "lat": 45.4969878,
+      "lon": -73.5750846,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1255",
+        "addr:postcode": "H3G 2B1",
+        "addr:province": "Québec",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "brand": "Gyu-Kaku",
+        "brand:wikidata": "Q11349387",
+        "contact:website": "https://www.gyu-kaku.com/montreal/",
+        "cuisine": "japanese;barbecue",
+        "name": "Gyu-Kaku",
+        "phone": "+1-514-866-8808",
+        "website": "https://www.gyu-kaku.com/montreal/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11067370506,
+      "lat": 45.5033002,
+      "lon": -73.5748957,
+      "tags": {
+        "addr:housenumber": "908",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Nouilles Zhonghua",
+        "name:en": "Noodles Zhonghua"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11075702275,
+      "lat": 45.5024519,
+      "lon": -73.5726015,
+      "tags": {
+        "amenity": "cafe",
+        "diet:vegan": "only",
+        "diet:vegetarian": "only",
+        "indoor_seating": "yes",
+        "name": "Leaves House",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "website": "https://leaveshouse.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11103305999,
+      "lat": 45.4963141,
+      "lon": -73.5787252,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1500",
+        "addr:postcode": "H3G 1N1",
+        "addr:province": "QC",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "alt_name": "Poulet Frit Kentucky",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "check_date:opening_hours": "2025-10-25",
+        "cuisine": "chicken",
+        "name": "PFK",
+        "opening_hours:signed": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11103306002,
+      "lat": 45.4963869,
+      "lon": -73.5786988,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1490",
+        "addr:postcode": "H3G 1N1",
+        "addr:province": "QC",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "cafe",
+        "brand": "Yi Fang",
+        "brand:en": "Yi Fang Tea",
+        "brand:wikidata": "Q66196395",
+        "brand:zh": "一芳水果茶",
+        "cuisine": "bubble_tea",
+        "name": "Yi Fang",
+        "name:en": "Yi Fang Tea",
+        "name:zh": "一芳水果茶",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11103364205,
+      "lat": 45.4964697,
+      "lon": -73.5786562,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1480",
+        "addr:postcode": "H3G 1N1",
+        "addr:province": "QC",
+        "addr:street": "Boulevard De Maisonneuve Ouest",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "level": "G",
+        "name": "Maison Bao",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 514-846-6899",
+        "takeaway": "yes",
+        "website": "https://baohousemtl.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11112929021,
+      "lat": 45.5069131,
+      "lon": -73.5661482,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Orange Julius",
+        "brand:wikidata": "Q3355059",
+        "cuisine": "juice",
+        "name": "Orange Julius",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11112929022,
+      "lat": 45.5068408,
+      "lon": -73.5662848,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria No. 900"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11117759006,
+      "lat": 45.5009018,
+      "lon": -73.5722755,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "check_date": "2026-09-18",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11135270533,
+      "lat": 45.4980195,
+      "lon": -73.5713341,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11135270536,
+      "lat": 45.4969152,
+      "lon": -73.5733724,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lo",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11135270538,
+      "lat": 45.4976955,
+      "lon": -73.5742497,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Bis Ristorante"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11135270539,
+      "lat": 45.4973995,
+      "lon": -73.5747966,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "poutine",
+        "name": "Vladimir Poutine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11139887011,
+      "lat": 45.4986841,
+      "lon": -73.5740276,
+      "tags": {
+        "amenity": "fast_food",
+        "check_date:opening_hours": "2024-05-31",
+        "cuisine": "kebab",
+        "name": "Basha",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11146268573,
+      "lat": 45.5004824,
+      "lon": -73.5741342,
+      "tags": {
+        "addr:housenumber": "1450",
+        "addr:street": "Rue Peel",
+        "amenity": "restaurant",
+        "cuisine": "spanish",
+        "name": "Iberica"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11146268574,
+      "lat": 45.500889,
+      "lon": -73.5750903,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Mangia Café"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11155775797,
+      "lat": 45.4983329,
+      "lon": -73.5732532,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi Rosa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11179531775,
+      "lat": 45.4959043,
+      "lon": -73.5766991,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Koa Lua Poke"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11179538101,
+      "lat": 45.4967187,
+      "lon": -73.575885,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "CoCo",
+        "brand:wikidata": "Q65084369",
+        "cuisine": "bubble_tea",
+        "name": "CoCo Fresh Tea & Juice",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "short_name": "CoCo",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11179539396,
+      "lat": 45.4959362,
+      "lon": -73.5766587,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Liv Salades"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11179539398,
+      "lat": 45.4984443,
+      "lon": -73.5758922,
+      "tags": {
+        "addr:housenumber": "1425",
+        "addr:postcode": "H3G 1Z3",
+        "addr:street": "Rue de la Montagne",
+        "amenity": "cafe",
+        "name": "Cafe Filicori Zecchini",
+        "website": "https://www.voguehotelmontreal.com/vogue-hotel-caf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11179539500,
+      "lat": 45.4969884,
+      "lon": -73.5756539,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Columbus Café & Co"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11182291312,
+      "lat": 45.5057046,
+      "lon": -73.5672567,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "374",
+        "addr:postcode": "H3B 1A1",
+        "addr:province": "Québec",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafe et Crêpe",
+        "outdoor_seating": "no",
+        "website": "https://www.cafeetcrepe.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11189043837,
+      "lat": 45.5058706,
+      "lon": -73.5675061,
+      "tags": {
+        "addr:housenumber": "377",
+        "addr:postcode": "H3B 1A4",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "cafe",
+        "cuisine": "tea",
+        "name": "Plentea",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1 647-375-9475",
+        "website": "https://plentea.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11194750937,
+      "lat": 45.500274,
+      "lon": -73.5757729,
+      "tags": {
+        "amenity": "restaurant",
+        "name:es": "La Cantina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11227911637,
+      "lat": 45.4972312,
+      "lon": -73.5772686,
+      "tags": {
+        "addr:housenumber": "1433",
+        "addr:postcode": "H3G 2E4",
+        "addr:street": "Rue Bishop",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "cuisine": "asian;japanese",
+        "diet:vegetarian": "yes",
+        "name": "DonDonYa",
+        "opening_hours": "Tu-Th 11:30-21:30; Fr 11:30-22:00; Sa 12:00-22:00; Su 12:00-21:00",
+        "phone": "+1-514-638-6626",
+        "website": "https://dondonya.gotoeat.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11265148007,
+      "lat": 45.5042299,
+      "lon": -73.5724814,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2020",
+        "addr:province": "Québec",
+        "addr:street": "Boulevard Robert-Bourassa",
+        "amenity": "fast_food",
+        "check_date": "2025-08-15",
+        "cuisine": "kebab",
+        "diet:halal": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Yalla",
+        "opening_hours": "Mo-Fr 11:00-20:00",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11265148008,
+      "lat": 45.5047759,
+      "lon": -73.5724392,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi Sama"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11265148009,
+      "lat": 45.5047275,
+      "lon": -73.5727254,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Bros"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11265181040,
+      "lat": 45.5102697,
+      "lon": -73.5706695,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Pizza Momo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11280151106,
+      "lat": 45.5055042,
+      "lon": -73.5708232,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Atti"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11280151110,
+      "lat": 45.5105406,
+      "lon": -73.5725473,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Yamu Yamu Sushi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282402854,
+      "lat": 45.5046292,
+      "lon": -73.5685987,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "La Baguette Farcie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282402855,
+      "lat": 45.5045781,
+      "lon": -73.5686338,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "name": "Wok to Go"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282402856,
+      "lat": 45.5046064,
+      "lon": -73.5686139,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "indian",
+        "name": "Chennai Express"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282402858,
+      "lat": 45.5040977,
+      "lon": -73.5683089,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mandy's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282420242,
+      "lat": 45.5060401,
+      "lon": -73.5674065,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "breakfast",
+        "name": "Universel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282420246,
+      "lat": 45.5059847,
+      "lon": -73.5670044,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "M4 Burritos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11282420248,
+      "lat": 45.5058051,
+      "lon": -73.5671662,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "name": "Sansotei Ramen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11287022487,
+      "lat": 45.5086324,
+      "lon": -73.5722545,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger;smoothie",
+        "drive_through": "no",
+        "name": "Chef On Call"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11289616946,
+      "lat": 45.5029062,
+      "lon": -73.5678061,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "name": "Kinton Ramen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11289616948,
+      "lat": 45.502769,
+      "lon": -73.5674968,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1186",
+        "addr:postcode": "H3B 3C4",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue Union",
+        "amenity": "restaurant",
+        "cuisine": "chinese;cantonese",
+        "name": "retaurant pinophyta",
+        "opening_hours": "Mo-Su 11:30-21:00",
+        "phone": "+1-514-632-9888"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11292378483,
+      "lat": 45.5040771,
+      "lon": -73.5779904,
+      "tags": {
+        "amenity": "theatre",
+        "name": "Leacock Amphitheater",
+        "operator": "McGill University",
+        "theatre:type": "open_air"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11292417422,
+      "lat": 45.5087752,
+      "lon": -73.5724857,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3444",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "Québec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Ōma Sushi",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "website": "https://omasushi.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11386218188,
+      "lat": 45.5076804,
+      "lon": -73.5695725,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "333",
+        "addr:postcode": "H3A 2K2",
+        "addr:province": "Québec",
+        "addr:street": "Avenue du Président-Kennedy",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-03-11",
+        "cuisine": "coffee_shop;pastry",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Café Rì Yuè",
+        "opening_hours": "We-Su 11:00-19:00",
+        "website": "https://riyuecelebration.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11415804069,
+      "lat": 45.5005193,
+      "lon": -73.574789,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Campo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11422251669,
+      "lat": 45.4960875,
+      "lon": -73.5770217,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Patty Slaps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11715447610,
+      "lat": 45.4964159,
+      "lon": -73.5784899,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1464",
+        "addr:postcode": "H3G 2H7",
+        "addr:province": "Québec",
+        "addr:street": "Rue Mackay",
+        "amenity": "fast_food",
+        "check_date:opening_hours": "2025-10-25",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "name": "Tropé",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11729165947,
+      "lat": 45.5111184,
+      "lon": -73.5775963,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3714",
+        "addr:postcode": "H2X 2J1",
+        "addr:province": "Québec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "bar",
+        "internet_access": "yes",
+        "min_age": "18",
+        "name": "Coop Bar Milton-Parc",
+        "opening_hours": "Mo-Tu closed,We,Su 16:00-00:00, Th-Sa 16:00-02:00",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://bmp.coop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11764443743,
+      "lat": 45.5088388,
+      "lon": -73.5726571,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3452",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "diet:vegetarian": "yes",
+        "name": "Ô Four",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-438-380-3869"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11764443744,
+      "lat": 45.5088864,
+      "lon": -73.5727667,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "3454",
+        "addr:postcode": "H2X 2H5",
+        "addr:province": "Quebec",
+        "addr:street": "Avenue du Parc",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "name": "Malak Al Tawouk",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "phone": "+1-438-381-0999"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11781149633,
+      "lat": 45.5060696,
+      "lon": -73.5764603,
+      "tags": {
+        "amenity": "ice_cream",
+        "name": "Frostbite",
+        "opening_hours": "Mo-Fr 10:00-17:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11793882084,
+      "lat": 45.5061385,
+      "lon": -73.5734236,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2026-10-03",
+        "cuisine": "vietnamese;sandwich",
+        "name": "Vinh's Café",
+        "opening_hours": "Mo-Fr 10:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11793882085,
+      "lat": 45.5069495,
+      "lon": -73.5793915,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "vietnamese;sandwich",
+        "name": "Vinh's Café",
+        "opening_hours": "Mo-Fr 10:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11948947033,
+      "lat": 45.4987693,
+      "lon": -73.5739593,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Fondue Haidilao",
+        "opening_hours": "Su-Th 11:00-02:00, Fr,Sa 11:00-04:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11972825499,
+      "lat": 45.49723,
+      "lon": -73.5807559,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1486",
+        "addr:postcode": "H3G 1L3",
+        "addr:province": "QC",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Khao Peeyo",
+        "phone": "+1 514-935-1117",
+        "website": "https://khao-peeyo.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11987931530,
+      "lat": 45.4968315,
+      "lon": -73.5717395,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1330",
+        "addr:province": "Quebec",
+        "addr:street": "Boulevard René-Lévesque Ouest",
+        "amenity": "restaurant",
+        "image": "https://web.archive.org/web/20240617172204/https://westnordost.de/p/90835.jpg",
+        "name": "Comptoir cuisine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12170285783,
+      "lat": 45.5033215,
+      "lon": -73.5748808,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Café Humble Lion"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12178711465,
+      "lat": 45.5068869,
+      "lon": -73.5685281,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1504",
+        "addr:province": "QC",
+        "addr:street": "Rue De Bleury",
+        "amenity": "fast_food",
+        "brand": "Thaï Express",
+        "brand:wikidata": "Q7711610",
+        "cuisine": "thai",
+        "drive_through": "no",
+        "name": "Thaï Express",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12178711466,
+      "lat": 45.506847,
+      "lon": -73.5684462,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1502",
+        "addr:province": "QC",
+        "addr:street": "Rue De Bleury",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Presotea",
+        "opening_hours": "Mo-Su 11:30-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12178711467,
+      "lat": 45.5068266,
+      "lon": -73.5683911,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1500",
+        "addr:province": "QC",
+        "addr:street": "Rue De Bleury",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa,Su 09:00-21:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842850,
+      "lat": 45.5016661,
+      "lon": -73.5662777,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jugo Juice",
+        "brand:wikidata": "Q119705456",
+        "cuisine": "juice",
+        "name": "Jugo Juice",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842851,
+      "lat": 45.5025544,
+      "lon": -73.568164,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Moretti"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842853,
+      "lat": 45.5029911,
+      "lon": -73.5691763,
+      "tags": {
+        "amenity": "ice_cream",
+        "name": "Les Glaceurs"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842856,
+      "lat": 45.5028305,
+      "lon": -73.56941,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "East"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842858,
+      "lat": 45.5042748,
+      "lon": -73.5724207,
+      "tags": {
+        "addr:housenumber": "2020",
+        "addr:street": "Boulevard Robert-Bourassa",
+        "amenity": "cafe",
+        "check_date": "2025-08-15",
+        "cuisine": "coffee_shop;sandwich",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Columbus Café & Co.",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842860,
+      "lat": 45.5043532,
+      "lon": -73.5717047,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Essence"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842861,
+      "lat": 45.5047691,
+      "lon": -73.5726701,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Ganadara"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842865,
+      "lat": 45.5050818,
+      "lon": -73.5716534,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Prestotea",
+        "opening_hours": "Mo-Sa 11:00-21:30; Su 12:00-21:30",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842868,
+      "lat": 45.5049785,
+      "lon": -73.5710949,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Cafe Maisonneuve"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842870,
+      "lat": 45.5051932,
+      "lon": -73.5708851,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "MajesThé"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194842873,
+      "lat": 45.503081,
+      "lon": -73.5658806,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "500",
+        "addr:province": "QC",
+        "addr:street": "Boulevard René-Lévesque Ouest",
+        "amenity": "cafe",
+        "brand": "Café Dépôt",
+        "brand:wikidata": "Q64924449",
+        "cuisine": "coffee_shop;cake;bagel;bistro",
+        "name": "Café Dépôt",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194959180,
+      "lat": 45.5071988,
+      "lon": -73.5692528,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Commodore",
+        "opening_hours": "Mo-Su 07:00-15:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194959181,
+      "lat": 45.5083743,
+      "lon": -73.5716569,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Tiamo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194959185,
+      "lat": 45.5093761,
+      "lon": -73.5731358,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cacao 70"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194959186,
+      "lat": 45.5093528,
+      "lon": -73.5730767,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "El Mida"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194959200,
+      "lat": 45.5100591,
+      "lon": -73.5752991,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194965401,
+      "lat": 45.5100383,
+      "lon": -73.5752417,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "poke",
+        "name": "Poke Monster"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194965402,
+      "lat": 45.5099908,
+      "lon": -73.5751243,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sushi Shop",
+        "brand:wikidata": "Q64840990",
+        "cuisine": "sushi",
+        "name": "Sushi Shop",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194965403,
+      "lat": 45.5104671,
+      "lon": -73.57616,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Sansalizza",
+        "opening_hours": "Mo-We 11:00-24:00, Th,Fr 11:00-03:00, Sa 15:00-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194965406,
+      "lat": 45.5018664,
+      "lon": -73.576922,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "check_date": "2025-09-11",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12194965409,
+      "lat": 45.501396,
+      "lon": -73.5754011,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria No. 900"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12251195245,
+      "lat": 45.4962758,
+      "lon": -73.5782723,
+      "tags": {
+        "addr:housenumber": "1448",
+        "addr:street": "Rue Mackay",
+        "amenity": "fast_food",
+        "check_date:opening_hours": "2025-10-25",
+        "cuisine": "burger",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Yumi Burger",
+        "opening_hours": "Su-Th 11:00-03:00; Fr-Sa 11:00-04:00",
+        "opening_hours:signed": "no",
+        "phone": "+1 514 846 3336",
+        "website": "https://yumiburger.ca/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12488301369,
+      "lat": 45.5084325,
+      "lon": -73.5658186,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "175",
+        "addr:postcode": "H2X 3X5",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "theatre",
+        "name": "Théâtre Jean-Duceppe",
+        "operator": "Place des Arts",
+        "website": "https://www.placedesarts.com/salle/theatre-jean-duceppe",
+        "wheelchair": "yes",
+        "wikidata": "Q3527481"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12488301370,
+      "lat": 45.5084058,
+      "lon": -73.5657614,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "175",
+        "addr:postcode": "H2X 3X5",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "theatre",
+        "name": "Théâtre Maisonneuve",
+        "operator": "Place des Arts",
+        "website": "https://www.placedesarts.com/salle/theatre-maisonneuve",
+        "wheelchair": "yes",
+        "wikidata": "Q3527509",
+        "wikipedia": "en:Théâtre Maisonneuve"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12488301371,
+      "lat": 45.5083737,
+      "lon": -73.5656965,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "175",
+        "addr:postcode": "H2X 1Z8",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "theatre",
+        "name": "Salle Claude-Léveillée",
+        "operator": "Place des Arts",
+        "website": "https://www.placedesarts.com/salle/salle-claude-leveillee",
+        "wheelchair": "yes",
+        "wikidata": "Q98271286"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12507592055,
+      "lat": 45.5084824,
+      "lon": -73.5667662,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "175",
+        "addr:postcode": "H2X 3X5",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "theatre",
+        "name": "Salle Wilfrid-Pelletier",
+        "website": "https://www.placedesarts.com/salle/salle-wilfrid-pelletier",
+        "wheelchair": "yes",
+        "wikidata": "Q3469896",
+        "wikipedia": "en:Salle Wilfrid-Pelletier"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12620869574,
+      "lat": 45.5041712,
+      "lon": -73.5725312,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Le Poké Station",
+        "opening_hours": "Mo-Sa 10:30-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12778414089,
+      "lat": 45.5026543,
+      "lon": -73.5733386,
+      "tags": {
+        "addr:housenumber": "2000",
+        "addr:street": "Avenue McGill College",
+        "amenity": "cafe",
+        "branch": "McGill College",
+        "name": "My Little Cup Comptoir Café",
+        "phone": "+1 514-419-2997",
+        "website": "https://pigeoncoffee.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12989725313,
+      "lat": 45.5075305,
+      "lon": -73.5653373,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "150",
+        "addr:postcode": "H2X 3Y2",
+        "addr:province": "Québec",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "restaurant",
+        "check_date": "2025-07-09",
+        "cuisine": "salad;burger;breakfast;coffee_shop;soup",
+        "diet:vegan": "only",
+        "level": "-1",
+        "name": "Copper Branch",
+        "opening_hours": "Mo-Su 11:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-514-864-2026",
+        "website": "https://eatcopperbranch.com/restaurants/complexe-desjardins/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13103890143,
+      "lat": 45.5103893,
+      "lon": -73.5750256,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2026-10-28",
+        "check_date:opening_hours": "2026-10-28",
+        "cuisine": "french;crepe;coffee_shop",
+        "level": "0",
+        "name": "Genki Crepe",
+        "opening_hours": "Mo-Sa 08:00-17:30; Su off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13121404183,
+      "lat": 45.4964691,
+      "lon": -73.578118,
+      "tags": {
+        "amenity": "cafe",
+        "level": "0",
+        "name": "LBee Café",
+        "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13136583212,
+      "lat": 45.4974341,
+      "lon": -73.5801123,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2155",
+        "addr:postcode": "H2G2J2",
+        "addr:province": "Québec",
+        "addr:street": "Machay St",
+        "amenity": "cafe",
+        "check_date": "2026-06-18",
+        "cuisine": "bubble_tea;oriental",
+        "description": "unregistered cafe",
+        "internet_access": "wlan",
+        "name": "Accio Cup"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13136583213,
+      "lat": 45.4974793,
+      "lon": -73.5801706,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2157",
+        "addr:postcode": "H3H2G2",
+        "addr:province": "Québec",
+        "addr:street": "Mackay St",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "description": "unregistered restaurant",
+        "name": "YEN- Cuisine Japonaise"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13235626702,
+      "lat": 45.499959,
+      "lon": -73.5780833,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Maison Boulud"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13252966982,
+      "lat": 45.497608,
+      "lon": -73.578206,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "2019",
+        "addr:postcode": "H3G 2B8",
+        "addr:province": "QC",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "cuisine": "sandwich;african/french",
+        "name": "Baquette Brochette"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256462002,
+      "lat": 45.5037328,
+      "lon": -73.5782359,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Gerts Café",
+        "opening_hours": "Mo-Fr 08:30-17:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13267151601,
+      "lat": 45.5050774,
+      "lon": -73.5732168,
+      "tags": {
+        "addr:housenumber": "666",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "fast_food",
+        "check_date": "2025-09-30",
+        "cuisine": "chicken",
+        "internet_access": "no",
+        "level": "-1",
+        "name": "Madame Poulet",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13267151602,
+      "lat": 45.5050774,
+      "lon": -73.5732168,
+      "tags": {
+        "addr:housenumber": "666",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "check_date": "2025-09-30",
+        "cuisine": "kebab",
+        "diet:halal": "yes",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "-1",
+        "name": "Boustan",
+        "operator": "Boustan",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13276442518,
+      "lat": 45.4996931,
+      "lon": -73.5724672,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1232",
+        "addr:postcode": "H3A 1T5",
+        "addr:province": "QC",
+        "addr:street": "Rue Peel",
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13276442519,
+      "lat": 45.5025238,
+      "lon": -73.5702678,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "698",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "name": "Poulet Rouge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13285991132,
+      "lat": 45.49919,
+      "lon": -73.5735283,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Quesada",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13287714301,
+      "lat": 45.4986987,
+      "lon": -73.5725179,
+      "tags": {
+        "addr:housenumber": "1228",
+        "addr:street": "Rue Stanley",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Kan Bei"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13315463564,
+      "lat": 45.4958709,
+      "lon": -73.5786734,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "level": "-2",
+        "name": "Pizza Bella"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13315465040,
+      "lat": 45.4959602,
+      "lon": -73.5788736,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "level": "-2",
+        "name": "m.gao",
+        "name:en": "mr.gao",
+        "name:fr": "m.gao",
+        "opening_hours": "Mo-Fr 10:00-21:00; Sa 11:00-18:30; Su off",
+        "phone": "+1-514-989-8887",
+        "website": "https://www.mrgao.ca"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13315468236,
+      "lat": 45.4959257,
+      "lon": -73.5787952,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;pakistani",
+        "diet:halal": "yes",
+        "level": "-2",
+        "name": "Restaurant Biryani"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13340686295,
+      "lat": 45.5079734,
+      "lon": -73.567285,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "175",
+        "addr:postcode": "H2X 3X5",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "theatre",
+        "name": "Cinquième Salle",
+        "operator": "Place des Arts",
+        "website": "https://www.placedesarts.com/salle/cinquieme-salle",
+        "wikidata": "Q42986539"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13474554971,
+      "lat": 45.497783,
+      "lon": -73.5785114,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "diet:gluten_free": "yes",
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Poulet Royal",
+        "opening_hours": "Su-We 11:00-24:00, Th-Sa 11:00-03:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13474579863,
+      "lat": 45.4978084,
+      "lon": -73.5785021,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Restaurant Mala Express",
+        "phone": "+1-438-558-3437"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13474593605,
+      "lat": 45.4972305,
+      "lon": -73.5794366,
+      "tags": {
+        "amenity": "bar",
+        "happy_hours": "10:00-12:00",
+        "level": "1",
+        "name": "Reggie's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13739215443,
+      "lat": 45.5031316,
+      "lon": -73.5685339,
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "630",
+        "addr:postcode": "H3B 1L9",
+        "addr:province": "QC",
+        "addr:street": "Rue Cathcart",
+        "amenity": "bar",
+        "name": "Gokudo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13740004302,
+      "lat": 45.5065176,
+      "lon": -73.5652264,
+      "tags": {
+        "addr:housenumber": "1230",
+        "addr:postcode": "H2X2J3",
+        "addr:street": "Rue Jeanne-Mance",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "email": "qds@iruizakaya.ca",
+        "name": "Iru Izakaya (Quartier des spectacles)",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1-514-360-0115",
+        "website": "http://iruizakaya.ca"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13797150455,
+      "lat": 45.506603,
+      "lon": -73.5654372,
+      "tags": {
+        "addr:city": "Montreal",
+        "addr:housenumber": "1250",
+        "addr:postcode": "H2X 2J3",
+        "addr:province": "QC",
+        "addr:street": "Rue Jeanne-Mance",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Il Teatro (Quartier des spectacles)",
+        "phone": "+1-514-360-0470",
+        "website": "https://ilteatro.ca"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13797153928,
+      "lat": 45.5070696,
+      "lon": -73.5655562,
+      "tags": {
+        "addr:city": "Montreal",
+        "addr:housenumber": "1255",
+        "addr:postcode": "H5B 1B2",
+        "addr:province": "QC",
+        "addr:street": "Rue Jeanne-Mance",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Bivouac",
+        "phone": "+1-514-841-2021",
+        "website": "https://restaurantbivouac.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13895084686,
+      "lat": 45.5008018,
+      "lon": -73.5670349,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947882201,
+      "lat": 45.4980107,
+      "lon": -73.5778815,
+      "tags": {
+        "addr:housenumber": "2020",
+        "addr:street": "Rue Crescent",
+        "amenity": "nightclub",
+        "check_date": "2026-06-17",
+        "name": "Jet Montréal",
+        "phone": "+1-514-288-2888",
+        "website": "https://jetnightclub.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13975078105,
+      "lat": 45.4981118,
+      "lon": -73.5772058,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Crescent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13991294701,
+      "lat": 45.4973995,
+      "lon": -73.575858,
+      "tags": {
+        "addr:housenumber": "1407",
+        "addr:postcode": "H3G1R1",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "check_date": "2026-07-05",
+        "check_date:opening_hours": "2026-07-05",
+        "cuisine": "lebanese",
+        "name": "Mezzmiz",
+        "opening_hours": "Mo-Su 11:30-22:00",
+        "phone": "+1-514-212-9900",
+        "website": "http://https//mezzmiz.com",
+        "website:menu": "https://www.mezzmiz.com/order#/locations/find"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14095170436,
+      "lat": 45.5069148,
+      "lon": -73.5662208,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "hot_dog",
+        "name": "Mont Hot-Dog Poutine Réal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14098263602,
+      "lat": 45.4991693,
+      "lon": -73.5720387,
+      "tags": {
+        "addr:housenumber": "1111",
+        "addr:postcode": "H3B 1N3",
+        "addr:street": "Rue Cypress",
+        "amenity": "bar",
+        "check_date": "2026-08-15",
+        "check_date:opening_hours": "2026-08-15",
+        "email": "info@baredicola.com",
+        "level": "0",
+        "name": "Bar Edicola",
+        "opening_hours": "Mo-We 08:00-23:00; Th-Fr 08:00-00:00; Sa 09:00-00:00; Su 09:00-23:00",
+        "phone": "+1-514-419-3232",
+        "website": "https://baredicola.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14099562703,
+      "lat": 45.497365,
+      "lon": -73.5720405,
+      "tags": {
+        "addr:housenumber": "1255",
+        "addr:postcode": "H3G 1T1",
+        "addr:street": "Boulevard René-Lévesque Ouest",
+        "amenity": "restaurant",
+        "check_date": "2026-08-16",
+        "check_date:opening_hours": "2026-08-16",
+        "contact:facebook": "61592315854896",
+        "contact:instagram": "fisheyemtl",
+        "cuisine": "french;japanese",
+        "name": "Fish Eye",
+        "opening_hours": "Su-We 17:00-22:00; Th-Sa 17:00-00:00",
+        "phone": "+1-514-866-7676",
+        "website": "https://www.restaurantfisheye.com/",
+        "website:menu": "https://www.restaurantfisheye.com/menu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14108152901,
+      "lat": 45.5015827,
+      "lon": -73.5686326,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Esplanade Place Ville Marie",
+        "amenity": "cafe",
+        "contact:instagram": "sora45montreal",
+        "internet_access": "wlan",
+        "level": "45",
+        "name": "SORA 45",
+        "opening_hours": "Mo-Su 09:00-16:00; Tu-Sa 09:00-16:00,17:00-24:00",
+        "website": "https://www.sora45.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14130054102,
+      "lat": 45.4959913,
+      "lon": -73.5746791,
+      "tags": {
+        "addr:housenumber": "1197",
+        "addr:street": "Rue Bishop",
+        "amenity": "cafe",
+        "name": "San Sebastian Café",
+        "website": "http://sansebastiancafe.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14177442616,
+      "lat": 45.4987831,
+      "lon": -73.5786133,
+      "tags": {
+        "addr:housenumber": "2183",
+        "addr:street": "Rue Crescent",
+        "amenity": "restaurant",
+        "description": "Palestinian cuisine, Middle eastern cuisine",
+        "name": "Le Chef",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "phone": "+1-514-470-0905",
+        "website": "lechef-ca.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14310062016,
+      "lat": 45.5007773,
+      "lon": -73.5762964,
+      "tags": {
+        "addr:housenumber": "2055",
+        "addr:street": "Rue Stanley",
+        "amenity": "cafe",
+        "email": "info@caffettiera.ca",
+        "name": "Bar Caffettiera",
+        "website": "https://www.caffettiera.ca/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14382033801,
+      "lat": 45.5024991,
+      "lon": -73.5753045,
+      "tags": {
+        "addr:housenumber": "1000",
+        "addr:postcode": "H3A3R3",
+        "addr:street": "Rue Sherbrooke Ouest",
+        "amenity": "fast_food",
+        "cuisine": "japanese",
+        "level": "-1",
+        "name": "Japote",
+        "opening_hours": "Mo-Fr 11:30-14:00",
+        "website": "https://japote.ca/",
+        "website:menu": "https://japote.ca/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 21345700,
+      "center": {
+        "lat": 45.5054545,
+        "lon": -73.5661958
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1202",
+        "addr:postcode": "H3B 3J3",
+        "addr:province": "QC",
+        "addr:street": "Rue De Bleury",
+        "amenity": "arts_centre",
+        "building": "church",
+        "denomination": "roman_catholic",
+        "name": "Église du Gesú",
+        "website": "https://legesu.com",
+        "wheelchair": "limited",
+        "wikidata": "Q14364527",
+        "wikipedia": "fr:Église du Gesù (Montréal)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36430660,
+      "center": {
+        "lat": 45.5092796,
+        "lon": -73.5667275
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1600",
+        "addr:postcode": "H2X 0S1",
+        "addr:province": "QC",
+        "addr:street": "Rue Saint-Urbain",
+        "amenity": "theatre",
+        "building": "commercial",
+        "check_date": "2025-07-24",
+        "name": "La Maison Symphonique de Montréal",
+        "theatre:genre": "philharmonic",
+        "website": "https://www.placedesarts.com/salle/maison-symphonique",
+        "wheelchair": "yes",
+        "wikidata": "Q3280275",
+        "wikipedia": "fr:Maison symphonique de Montréal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36430663,
+      "center": {
+        "lat": 45.5084695,
+        "lon": -73.5665182
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "175",
+        "addr:province": "QC",
+        "addr:street": "Rue Sainte-Catherine Ouest",
+        "amenity": "arts_centre",
+        "name": "Place des arts",
+        "short_name": "PDA",
+        "wikidata": "Q1326219"
+      }
+    },
+    {
+      "type": "way",
+      "id": 103933647,
+      "center": {
+        "lat": 45.4959525,
+        "lon": -73.5756287
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1234",
+        "addr:postcode": "H3G 2E3",
+        "addr:province": "QC",
+        "addr:street": "Rue Bishop",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Soup Zen Hot Pot",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1-438-375-0600",
+        "website": "https://www.soupzenhotpot.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122209641,
+      "center": {
+        "lat": 45.5063437,
+        "lon": -73.5690869
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "425",
+        "addr:postcode": "H3A 1N9",
+        "addr:street": "Rue Mayor",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "12",
+        "check_date": "2024-02-03",
+        "name": "Furco"
+      }
+    },
+    {
+      "type": "way",
+      "id": 128540891,
+      "center": {
+        "lat": 45.502896,
+        "lon": -73.5669653
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "building:levels": "12",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 340098217,
+      "center": {
+        "lat": 45.502662,
+        "lon": -73.5649487
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1085",
+        "addr:province": "QC",
+        "addr:street": "Côte du Beaver Hall",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Frais café & sandwiches"
+      }
+    },
+    {
+      "type": "way",
+      "id": 600478141,
+      "center": {
+        "lat": 45.5068827,
+        "lon": -73.5675033
+      },
+      "tags": {
+        "addr:city": "Montréal",
+        "addr:housenumber": "1435",
+        "addr:postcode": "H3A 2H7",
+        "addr:province": "QC",
+        "addr:street": "Rue De Bleury",
+        "amenity": "arts_centre",
+        "building": "retail",
+        "name": "Edifice Wilder Espace Danse",
+        "website": "https://agoradanse.com/edifice-wilder-locations/",
+        "wikidata": "Q105529724"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741805,
+      "center": {
+        "lat": 45.5029231,
+        "lon": -73.5716799
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "popcorn",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Akai Bowl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741806,
+      "center": {
+        "lat": 45.5029601,
+        "lon": -73.5716824
+      },
+      "tags": {
+        "amenity": "ice_cream",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "La Crémière"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741809,
+      "center": {
+        "lat": 45.5028768,
+        "lon": -73.5719871
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jugo Juice",
+        "brand:wikidata": "Q119705456",
+        "cuisine": "juice",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Jugo Juice",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741811,
+      "center": {
+        "lat": 45.5029107,
+        "lon": -73.5719839
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bento Sushi",
+        "brand:wikidata": "Q134445293",
+        "cuisine": "sushi",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Bento Sushi",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741812,
+      "center": {
+        "lat": 45.5033287,
+        "lon": -73.5718181
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741813,
+      "center": {
+        "lat": 45.5032908,
+        "lon": -73.5717504
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741814,
+      "center": {
+        "lat": 45.5032431,
+        "lon": -73.5716546
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741815,
+      "center": {
+        "lat": 45.5031774,
+        "lon": -73.5715953
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741816,
+      "center": {
+        "lat": 45.5031233,
+        "lon": -73.5715675
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741817,
+      "center": {
+        "lat": 45.5030584,
+        "lon": -73.5715697
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741818,
+      "center": {
+        "lat": 45.5030077,
+        "lon": -73.5715744
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741832,
+      "center": {
+        "lat": 45.5026515,
+        "lon": -73.5714814
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "cuisine": "burger",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Burger King",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741838,
+      "center": {
+        "lat": 45.5026572,
+        "lon": -73.5717297
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741839,
+      "center": {
+        "lat": 45.5026941,
+        "lon": -73.5717643
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741840,
+      "center": {
+        "lat": 45.5027178,
+        "lon": -73.5718213
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Experience",
+        "brand:wikidata": "Q7702453",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Teriyaki Experience",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741841,
+      "center": {
+        "lat": 45.5027171,
+        "lon": -73.5718886
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "italian",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Vanellis",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741842,
+      "center": {
+        "lat": 45.5026929,
+        "lon": -73.5719572
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Valentine",
+        "brand:wikidata": "Q3553635",
+        "brand:wikipedia": "fr:Valentine (restaurant)",
+        "cuisine": "burger",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Valentine",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741843,
+      "center": {
+        "lat": 45.5026718,
+        "lon": -73.5720241
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Tiki Ming",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741844,
+      "center": {
+        "lat": 45.5026793,
+        "lon": -73.5721209
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q2818848",
+        "brand:wikipedia": "en:A&W (Canada)",
+        "cuisine": "burger",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "A&W",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741845,
+      "center": {
+        "lat": 45.5027169,
+        "lon": -73.5722022
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741846,
+      "center": {
+        "lat": 45.5027417,
+        "lon": -73.5722622
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "lebanese",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Amir",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741848,
+      "center": {
+        "lat": 45.5032299,
+        "lon": -73.5719548
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "seafood",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Aqua Lunch",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741849,
+      "center": {
+        "lat": 45.5032051,
+        "lon": -73.5720083
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "lebanese",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Basha",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741850,
+      "center": {
+        "lat": 45.5031607,
+        "lon": -73.5720682
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741851,
+      "center": {
+        "lat": 45.5031124,
+        "lon": -73.5721166
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Edo",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741852,
+      "center": {
+        "lat": 45.5030667,
+        "lon": -73.5721702
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Thaï Express",
+        "brand:wikidata": "Q7711610",
+        "brand:wikipedia": "en:Thaï Express",
+        "cuisine": "thai",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Thaï Express",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741854,
+      "center": {
+        "lat": 45.5030289,
+        "lon": -73.5723355
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Nudo",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741855,
+      "center": {
+        "lat": 45.5029842,
+        "lon": -73.5723925
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741856,
+      "center": {
+        "lat": 45.5029134,
+        "lon": -73.5724747
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741857,
+      "center": {
+        "lat": 45.5028244,
+        "lon": -73.5724503
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741860,
+      "center": {
+        "lat": 45.5027753,
+        "lon": -73.5723337
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "indoor": "room",
+        "level": "-2",
+        "level_name": "Tunnel Level",
+        "name": "Subway",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741861,
+      "center": {
+        "lat": 45.5030017,
+        "lon": -73.5713734
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Ateliers & Saveurs"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741894,
+      "center": {
+        "lat": 45.5030718,
+        "lon": -73.5713033
+      },
+      "tags": {
+        "amenity": "cafe",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Tunnel Espresso"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741900,
+      "center": {
+        "lat": 45.5035109,
+        "lon": -73.5712747
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "caribbean",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Americas BBQ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741902,
+      "center": {
+        "lat": 45.5034208,
+        "lon": -73.5713636
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-12-03",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Chanthy Yen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741903,
+      "center": {
+        "lat": 45.5033823,
+        "lon": -73.5714037
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "caribbean",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Paul Toussaint"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741904,
+      "center": {
+        "lat": 45.5031689,
+        "lon": -73.5712163
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Le Blossom"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741905,
+      "center": {
+        "lat": 45.5032021,
+        "lon": -73.5712842
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Marusan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741906,
+      "center": {
+        "lat": 45.503234,
+        "lon": -73.5713505
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Le Red Tiger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741907,
+      "center": {
+        "lat": 45.5032653,
+        "lon": -73.5714167
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Le Taj"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741909,
+      "center": {
+        "lat": 45.5030832,
+        "lon": -73.5710955
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-12-03",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Le Blossom"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741910,
+      "center": {
+        "lat": 45.5030452,
+        "lon": -73.5710338
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "check_date": "2025-12-03",
+        "cuisine": "sandwich",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Bossa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741912,
+      "center": {
+        "lat": 45.5030711,
+        "lon": -73.5708992
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741913,
+      "center": {
+        "lat": 45.5031118,
+        "lon": -73.5708589
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Campo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741914,
+      "center": {
+        "lat": 45.5031532,
+        "lon": -73.5708179
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Moleskine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741915,
+      "center": {
+        "lat": 45.5031972,
+        "lon": -73.5707737
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "il Miglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741916,
+      "center": {
+        "lat": 45.5032421,
+        "lon": -73.570729
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Burger T!"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741919,
+      "center": {
+        "lat": 45.5035039,
+        "lon": -73.5708425
+      },
+      "tags": {
+        "amenity": "bar",
+        "indoor": "room",
+        "level": "1",
+        "level_name": "Time Out Market",
+        "name": "Time Out Bar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021741978,
+      "center": {
+        "lat": 45.5034031,
+        "lon": -73.571215
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "indoor": "room",
+        "level": "-1",
+        "level_name": "Metro Level",
+        "name": "Sushiman"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815160,
+      "center": {
+        "lat": 45.5020281,
+        "lon": -73.5722794
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jugo Juice",
+        "brand:wikidata": "Q119705456",
+        "cuisine": "juice",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Jugo Juice",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815161,
+      "center": {
+        "lat": 45.5019994,
+        "lon": -73.5723075
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bento Sushi",
+        "brand:wikidata": "Q134445293",
+        "cuisine": "sushi",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Bento Sushi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815165,
+      "center": {
+        "lat": 45.501977,
+        "lon": -73.5726851
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Sukiyaki",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815166,
+      "center": {
+        "lat": 45.5019453,
+        "lon": -73.5726294
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cultures",
+        "brand:wikidata": "Q64876898",
+        "cuisine": "sandwich",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Cultures",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815167,
+      "center": {
+        "lat": 45.5019541,
+        "lon": -73.5724731
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Subway",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815169,
+      "center": {
+        "lat": 45.5019105,
+        "lon": -73.5725692
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "lebanese",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Basha"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815171,
+      "center": {
+        "lat": 45.5018991,
+        "lon": -73.5724024
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "indoor": "room",
+        "level": "-2",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "http://www.mcdonalds.ca/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815173,
+      "center": {
+        "lat": 45.5018243,
+        "lon": -73.5722585
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "indoor": "room",
+        "level": "-2",
+        "name": "Tiki Ming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815183,
+      "center": {
+        "lat": 45.5019227,
+        "lon": -73.5719327
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "pretzel",
+        "indoor": "room",
+        "level": "-1",
+        "name": "Mr. Pretzel",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021815187,
+      "center": {
+        "lat": 45.5020902,
+        "lon": -73.5720723
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "indoor": "room",
+        "level": "-1",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    }
+  ]
+}
